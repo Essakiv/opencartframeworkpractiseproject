@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Multi_Group_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Multi Group Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Multi_Group_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\esakivel\eclipse-workspace8\Opencartframeworkpractiseproject\src\test\resources\testng_multigroup.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Multi_Group_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Multi_Group_Test_Suite" class="navigator-link ">
+                    <span>6 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Multi_Group_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Multi_Group_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Multi_Group_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Multi_Group_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 2 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Multi_Group_Test_Suite" class="hide-methods failed suite-Multi_Group_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Multi_Group_Test_Suite -->
+                      <a href="#" panel-name="suite-Multi_Group_Test_Suite" class="show-methods failed suite-Multi_Group_Test_Suite"> (show)</a> <!-- show-methods failed suite-Multi_Group_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Multi_Group_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Multi_Group_Test_Suite" title="Testcases.LoginTestCase" class="method navigator-link" hash-for-method="testValidLogin">testValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Multi_Group_Test_Suite" title="Testcases.LoginTestCase" class="method navigator-link" hash-for-method="testValidLogin">testValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Multi_Group_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Multi_Group_Test_Suite" class="hide-methods passed suite-Multi_Group_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Multi_Group_Test_Suite -->
+                      <a href="#" panel-name="suite-Multi_Group_Test_Suite" class="show-methods passed suite-Multi_Group_Test_Suite"> (show)</a> <!-- show-methods passed suite-Multi_Group_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Multi_Group_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Multi_Group_Test_Suite" title="Testcases.LoginTestCase" class="method navigator-link" hash-for-method="testEmptyCredentials">testEmptyCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Multi_Group_Test_Suite" title="Testcases.LoginTestCase" class="method navigator-link" hash-for-method="testInvalidLogin">testInvalidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Multi_Group_Test_Suite" title="Testcases.LoginTestCase" class="method navigator-link" hash-for-method="testInvalidLogin">testInvalidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Multi_Group_Test_Suite" title="Testcases.LoginDataDrivenTest" class="method navigator-link" hash-for-method="testLoginAndUpdateResult">testLoginAndUpdateResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Multi_Group_Test_Suite" title="Testcases.LoginTestCase" class="method navigator-link" hash-for-method="testLoginPageDisplayed">testLoginPageDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Multi_Group_Test_Suite" title="Testcases.LoginDataDrivenTest" class="method navigator-link" hash-for-method="testLoginWithExternalDataProvider(fdhg, ghkgf, Fail)">testLoginWithExternalDataProvider(fdhg, ghkgf, Fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Multi_Group_Test_Suite" title="Testcases.LoginDataDrivenTest" class="method navigator-link" hash-for-method="testLoginWithExternalDataProvider(Admin, admin123, Pass)">testLoginWithExternalDataProvider(Admin, admin123, Pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Multi_Group_Test_Suite" title="Testcases.LoginDataDrivenTest" class="method navigator-link" hash-for-method="testLoginWithExternalDataProvider(jkjjkhhg, jgllijtli, Fail)">testLoginWithExternalDataProvider(jkjjkhhg, jgllijtli, Fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Multi_Group_Test_Suite" title="Testcases.LoginDataDrivenTest" class="method navigator-link" hash-for-method="testLoginWithLocalDataProvider(Admin, admin123, Pass)">testLoginWithLocalDataProvider(Admin, admin123, Pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Multi_Group_Test_Suite" title="Testcases.LoginDataDrivenTest" class="method navigator-link" hash-for-method="testLoginWithLocalDataProvider(fdhg, ghkgf, Fail)">testLoginWithLocalDataProvider(fdhg, ghkgf, Fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Multi_Group_Test_Suite" title="Testcases.LoginDataDrivenTest" class="method navigator-link" hash-for-method="testLoginWithLocalDataProvider(jkjjkhhg, jgllijtli, Fail)">testLoginWithLocalDataProvider(jkjjkhhg, jgllijtli, Fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Multi_Group_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Multi_Group_Test_Suite" class="panel Multi_Group_Test_Suite">
+          <div class="suite-Multi_Group_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Testcases.LoginTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidLogin">
+                  </a> <!-- testValidLogin -->
+                  <span class="method-name">testValidLogin</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login should be successful expected [true] but found [false]
+	at Testcases.LoginTestCase.testValidLogin(LoginTestCase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify valid user can login successfully)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidLogin">
+                  </a> <!-- testValidLogin -->
+                  <span class="method-name">testValidLogin</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login should be successful expected [true] but found [false]
+	at Testcases.LoginTestCase.testValidLogin(LoginTestCase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify valid user can login successfully)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Multi_Group_Test_Suite-class-failed -->
+          <div class="suite-Multi_Group_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.LoginDataDrivenTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginAndUpdateResult">
+                  </a> <!-- testLoginAndUpdateResult -->
+                  <span class="method-name">testLoginAndUpdateResult</span>
+                  <em>
+(Login Test with Excel Result Update)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithExternalDataProvider(fdhg, ghkgf, Fail)">
+                  </a> <!-- testLoginWithExternalDataProvider(fdhg, ghkgf, Fail) -->
+                  <span class="method-name">testLoginWithExternalDataProvider</span>
+                  <span class="parameters">(fdhg,ghkgf,Fail)</span>
+                  <em>
+(Data Driven Login Test with External DataProvider)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithExternalDataProvider(Admin, admin123, Pass)">
+                  </a> <!-- testLoginWithExternalDataProvider(Admin, admin123, Pass) -->
+                  <span class="method-name">testLoginWithExternalDataProvider</span>
+                  <span class="parameters">(Admin,admin123,Pass)</span>
+                  <em>
+(Data Driven Login Test with External DataProvider)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithExternalDataProvider(jkjjkhhg, jgllijtli, Fail)">
+                  </a> <!-- testLoginWithExternalDataProvider(jkjjkhhg, jgllijtli, Fail) -->
+                  <span class="method-name">testLoginWithExternalDataProvider</span>
+                  <span class="parameters">(jkjjkhhg,jgllijtli,Fail)</span>
+                  <em>
+(Data Driven Login Test with External DataProvider)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithLocalDataProvider(Admin, admin123, Pass)">
+                  </a> <!-- testLoginWithLocalDataProvider(Admin, admin123, Pass) -->
+                  <span class="method-name">testLoginWithLocalDataProvider</span>
+                  <span class="parameters">(Admin,admin123,Pass)</span>
+                  <em>
+(Data Driven Login Test with Local DataProvider)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithLocalDataProvider(fdhg, ghkgf, Fail)">
+                  </a> <!-- testLoginWithLocalDataProvider(fdhg, ghkgf, Fail) -->
+                  <span class="method-name">testLoginWithLocalDataProvider</span>
+                  <span class="parameters">(fdhg,ghkgf,Fail)</span>
+                  <em>
+(Data Driven Login Test with Local DataProvider)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithLocalDataProvider(jkjjkhhg, jgllijtli, Fail)">
+                  </a> <!-- testLoginWithLocalDataProvider(jkjjkhhg, jgllijtli, Fail) -->
+                  <span class="method-name">testLoginWithLocalDataProvider</span>
+                  <span class="parameters">(jkjjkhhg,jgllijtli,Fail)</span>
+                  <em>
+(Data Driven Login Test with Local DataProvider)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Multi_Group_Test_Suite-class-passed -->
+          <div class="suite-Multi_Group_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.LoginTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyCredentials">
+                  </a> <!-- testEmptyCredentials -->
+                  <span class="method-name">testEmptyCredentials</span>
+                  <em>
+(Verify login with empty credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidLogin">
+                  </a> <!-- testInvalidLogin -->
+                  <span class="method-name">testInvalidLogin</span>
+                  <em>
+(Verify invalid user cannot login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidLogin">
+                  </a> <!-- testInvalidLogin -->
+                  <span class="method-name">testInvalidLogin</span>
+                  <em>
+(Verify invalid user cannot login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPageDisplayed">
+                  </a> <!-- testLoginPageDisplayed -->
+                  <span class="method-name">testLoginPageDisplayed</span>
+                  <em>
+(Verify login page is displayed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Multi_Group_Test_Suite-class-passed -->
+        </div> <!-- panel Multi_Group_Test_Suite -->
+        <div panel-name="test-xml-Multi_Group_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\esakivel\eclipse-workspace8\Opencartframeworkpractiseproject\src\test\resources\testng_multigroup.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Multi Group Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Smoke Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;smoke&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testcases.LoginTestCase&quot;/&gt;
+      &lt;class name=&quot;Testcases.LoginDataDrivenTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Smoke Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Sanity Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;sanity&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testcases.LoginTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sanity Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Data Driven Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;datadriven&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testcases.LoginDataDrivenTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Data Driven Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;All Except DataDriven&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;smoke&quot;/&gt;
+        &lt;include name=&quot;regression&quot;/&gt;
+        &lt;exclude name=&quot;datadriven&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testcases.LoginTestCase&quot;/&gt;
+      &lt;class name=&quot;Testcases.LoginDataDrivenTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- All Except DataDriven --&gt;
+&lt;/suite&gt; &lt;!-- Multi Group Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Multi_Group_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Multi Group Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Smoke Tests (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Sanity Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Data Driven Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">All Except DataDriven (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Multi_Group_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Multi Group Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">datadriven</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginAndUpdateResult</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginWithExternalDataProvider</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginWithLocalDataProvider</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">excel</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginAndUpdateResult</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testInvalidLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testValidLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testEmptyCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testInvalidLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginAndUpdateResult</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginWithExternalDataProvider</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginWithLocalDataProvider</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testValidLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginPageDisplayed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testInvalidLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testValidLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Multi_Group_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Multi Group Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Multi_Group_Test_Suite');
+function tableData_Multi_Group_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testEmptyCredentials')
+data.setCell(0, 2, 'Testcases.LoginTestCase')
+data.setCell(0, 3, 46328);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testValidLogin')
+data.setCell(1, 2, 'Testcases.LoginTestCase')
+data.setCell(1, 3, 30071);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testValidLogin')
+data.setCell(2, 2, 'Testcases.LoginTestCase')
+data.setCell(2, 3, 25485);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLoginAndUpdateResult')
+data.setCell(3, 2, 'Testcases.LoginDataDrivenTest')
+data.setCell(3, 3, 12010);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLoginWithLocalDataProvider')
+data.setCell(4, 2, 'Testcases.LoginDataDrivenTest')
+data.setCell(4, 3, 9246);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testInvalidLogin')
+data.setCell(5, 2, 'Testcases.LoginTestCase')
+data.setCell(5, 3, 8933);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLoginWithExternalDataProvider')
+data.setCell(6, 2, 'Testcases.LoginDataDrivenTest')
+data.setCell(6, 3, 7368);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testInvalidLogin')
+data.setCell(7, 2, 'Testcases.LoginTestCase')
+data.setCell(7, 3, 5832);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testLoginWithExternalDataProvider')
+data.setCell(8, 2, 'Testcases.LoginDataDrivenTest')
+data.setCell(8, 3, 5349);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testLoginWithLocalDataProvider')
+data.setCell(9, 2, 'Testcases.LoginDataDrivenTest')
+data.setCell(9, 3, 5348);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testLoginWithExternalDataProvider')
+data.setCell(10, 2, 'Testcases.LoginDataDrivenTest')
+data.setCell(10, 3, 5309);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testLoginWithLocalDataProvider')
+data.setCell(11, 2, 'Testcases.LoginDataDrivenTest')
+data.setCell(11, 3, 5199);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testLoginPageDisplayed')
+data.setCell(12, 2, 'Testcases.LoginTestCase')
+data.setCell(12, 3, 3368);
+window.suiteTableData['Multi_Group_Test_Suite']= { tableData: data, tableDiv: 'times-div-Multi_Group_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Multi_Group_Test_Suite">
+              </div> <!-- times-div-Multi_Group_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Multi_Group_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Multi Group Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Multi_Group_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Testcases.LoginDataDrivenTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testLoginAndUpdateResult</span>
+                <br/>
+                <span class="ignored-method-name">testLoginWithExternalDataProvider</span>
+                <br/>
+                <span class="ignored-method-name">testLoginWithLocalDataProvider</span>
+                <br/>
+                <span class="ignored-method-name">testLoginWithExternalDataProvider</span>
+                <br/>
+                <span class="ignored-method-name">testLoginAndUpdateResult</span>
+                <br/>
+                <span class="ignored-method-name">testLoginWithLocalDataProvider</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Testcases.LoginTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testEmptyCredentials</span>
+                <br/>
+                <span class="ignored-method-name">testValidLogin</span>
+                <br/>
+                <span class="ignored-method-name">testInvalidLogin</span>
+                <br/>
+                <span class="ignored-method-name">testLoginPageDisplayed</span>
+                <br/>
+                <span class="ignored-method-name">testEmptyCredentials</span>
+                <br/>
+                <span class="ignored-method-name">testLoginPageDisplayed</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Multi_Group_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.LoginTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidLogin</span>
+                <span class="method-start">8461 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34095 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">34903 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidLogin</span>
+                <span class="method-start">40671 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46505 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">50517 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginPageDisplayed</span>
+                <span class="method-start">60312 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63681 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.LoginDataDrivenTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">66033 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithLocalDataProvider(Admin, admin123, Pass)</span>
+                <span class="method-start">72208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81456 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">82795 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithLocalDataProvider(fdhg, ghkgf, Fail)</span>
+                <span class="method-start">89668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">94868 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">95620 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithLocalDataProvider(jkjjkhhg, jgllijtli, Fail)</span>
+                <span class="method-start">101822 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">107171 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">107927 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithExternalDataProvider(Admin, admin123, Pass)</span>
+                <span class="method-start">114182 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">121551 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">122183 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithExternalDataProvider(fdhg, ghkgf, Fail)</span>
+                <span class="method-start">129627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">134978 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">135798 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithExternalDataProvider(jkjjkhhg, jgllijtli, Fail)</span>
+                <span class="method-start">142426 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">147736 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">148503 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAndUpdateResult</span>
+                <span class="method-start">152845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">164856 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.LoginTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">168877 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidLogin</span>
+                <span class="method-start">173703 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">203970 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">204900 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidLogin</span>
+                <span class="method-start">214681 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">223616 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">224368 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEmptyCredentials</span>
+                <span class="method-start">231804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">278132 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

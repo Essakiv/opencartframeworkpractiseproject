@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Multi Group Test Suite</th></tr>
+<tr><td><a href="#t0">Smoke Tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">47,773</td><td>smoke</td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Sanity Tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">13,624</td><td>sanity</td><td></td></tr>
+<tr><td><a href="#t2">Data Driven Tests</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">99,979</td><td>datadriven</td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">All Except DataDriven</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">109,906</td><td>regression, smoke</td><td>datadriven</td></tr>
+<tr><th>Total</th><th class="num">11</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">271,282</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Multi Group Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Smoke Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Testcases.LoginTestCase</td><td><a href="#m0">testValidLogin</a></td><td rowspan="1">1767508532249</td><td rowspan="1">25485</td></tr><tr><th colspan="4">Smoke Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Testcases.LoginTestCase</td><td><a href="#m1">testInvalidLogin</a></td><td rowspan="1">1767508564459</td><td rowspan="1">5832</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Sanity Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Testcases.LoginTestCase</td><td><a href="#m2">testLoginPageDisplayed</a></td><td rowspan="1">1767508584100</td><td rowspan="1">3368</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Data Driven Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">Testcases.LoginDataDrivenTest</td><td><a href="#m3">testLoginAndUpdateResult</a></td><td rowspan="1">1767508676633</td><td rowspan="1">12010</td></tr><tr class="passedeven"><td><a href="#m4">testLoginWithExternalDataProvider</a></td><td rowspan="3">1767508653415</td><td rowspan="3">5349</td></tr><tr class="passedeven"><td><a href="#m5">testLoginWithExternalDataProvider</a></td></tr><tr class="passedeven"><td><a href="#m6">testLoginWithExternalDataProvider</a></td></tr><tr class="passedeven"><td><a href="#m7">testLoginWithLocalDataProvider</a></td><td rowspan="3">1767508595996</td><td rowspan="3">9246</td></tr><tr class="passedeven"><td><a href="#m8">testLoginWithLocalDataProvider</a></td></tr><tr class="passedeven"><td><a href="#m9">testLoginWithLocalDataProvider</a></td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">All Except DataDriven &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Testcases.LoginTestCase</td><td><a href="#m10">testValidLogin</a></td><td rowspan="1">1767508697491</td><td rowspan="1">30071</td></tr><tr><th colspan="4">All Except DataDriven &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Testcases.LoginTestCase</td><td><a href="#m11">testEmptyCredentials</a></td><td rowspan="1">1767508755592</td><td rowspan="1">46328</td></tr><tr class="passedeven"><td><a href="#m12">testInvalidLogin</a></td><td rowspan="1">1767508738469</td><td rowspan="1">8933</td></tr></tbody>
+</table>
+<h2>Smoke Tests</h2><h3 id="m0">Testcases.LoginTestCase#testValidLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Login should be successful expected [true] but found [false]
+	at Testcases.LoginTestCase.testValidLogin(LoginTestCase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Testcases.LoginTestCase#testInvalidLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Sanity Tests</h2><h3 id="m2">Testcases.LoginTestCase#testLoginPageDisplayed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Data Driven Tests</h2><h3 id="m3">Testcases.LoginDataDrivenTest#testLoginAndUpdateResult</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Testcases.LoginDataDrivenTest#testLoginWithExternalDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>fdhg</td><td>ghkgf</td><td>Fail</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Testcases.LoginDataDrivenTest#testLoginWithExternalDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Admin</td><td>admin123</td><td>Pass</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Testcases.LoginDataDrivenTest#testLoginWithExternalDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>jkjjkhhg</td><td>jgllijtli</td><td>Fail</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Testcases.LoginDataDrivenTest#testLoginWithLocalDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Admin</td><td>admin123</td><td>Pass</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Testcases.LoginDataDrivenTest#testLoginWithLocalDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>fdhg</td><td>ghkgf</td><td>Fail</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Testcases.LoginDataDrivenTest#testLoginWithLocalDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>jkjjkhhg</td><td>jgllijtli</td><td>Fail</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>All Except DataDriven</h2><h3 id="m10">Testcases.LoginTestCase#testValidLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Login should be successful expected [true] but found [false]
+	at Testcases.LoginTestCase.testValidLogin(LoginTestCase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Testcases.LoginTestCase#testEmptyCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">Testcases.LoginTestCase#testInvalidLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

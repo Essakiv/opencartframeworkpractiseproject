@@ -1,0 +1,244 @@
+2026-01-04 11:37:26 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:37:26 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:37:26 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:37:28 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:37:28 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:37:28 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:37:28 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:37:28 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:37:28 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:37:28 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:37:28 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:37:28 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:37:28 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:37:28 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:37:28 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:37:28 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:37:28 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:37:28 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:37:28 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:37:31 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:37:31 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:37:31 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:37:31 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:37:32 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:37:32 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:37:32 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:38:03 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Local WebDriver initialized
+2026-01-04 11:38:03 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Local Browser launched: firefox
+2026-01-04 11:38:11 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 11:38:14 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 11:38:43 [TestNG-tests-2] ERROR Testcases.LoginTestCase - ✗ Login failed for: Admin
+2026-01-04 11:38:49 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Browser closed
+2026-01-04 11:38:49 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:38:49 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Browser closed
+2026-01-04 11:38:49 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:38:49 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 11:38:49 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:38:49 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 11:38:49 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:38:49 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 11:38:49 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:38:49 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Browser closed
+2026-01-04 11:38:49 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:38:50 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 11:38:50 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:38:50 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Browser closed
+2026-01-04 11:44:44 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:44 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:44 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:44:46 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:44:47 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:44:47 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:51:20 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:51:21 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:51:23 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:51:27 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:51:27 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:51:27 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:51:27 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:51:27 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:51:27 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:51:28 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:51:28 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:51:29 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:51:29 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:58:39 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:58:45 [main] INFO  Testcases.LoginTestCase - Local WebDriver initialized
+2026-01-04 11:58:45 [main] INFO  Testcases.LoginTestCase - Local Browser launched: chrome
+2026-01-04 11:58:50 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 11:58:51 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 11:59:16 [main] ERROR Testcases.LoginTestCase - ✗ Login failed for: Admin
+2026-01-04 11:59:17 [main] INFO  Testcases.LoginTestCase - Browser closed
+2026-01-04 11:59:17 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:59:19 [main] INFO  Testcases.LoginTestCase - Local WebDriver initialized
+2026-01-04 11:59:19 [main] INFO  Testcases.LoginTestCase - Local Browser launched: chrome
+2026-01-04 11:59:24 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 11:59:25 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 11:59:32 [main] INFO  Testcases.LoginTestCase - ✓ Login failed as expected for: InvalidUser
+2026-01-04 11:59:33 [main] INFO  Testcases.LoginTestCase - Browser closed
+2026-01-04 11:59:36 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 11:59:39 [main] INFO  Testcases.LoginTestCase - Local WebDriver initialized
+2026-01-04 11:59:39 [main] INFO  Testcases.LoginTestCase - Local Browser launched: chrome
+2026-01-04 11:59:45 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 11:59:48 [main] INFO  Testcases.LoginTestCase - Browser closed
+2026-01-04 11:59:50 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 11:59:52 [main] INFO  Testcases.LoginDataDrivenTest - Local WebDriver initialized
+2026-01-04 11:59:52 [main] INFO  Testcases.LoginDataDrivenTest - Local Browser launched: chrome
+2026-01-04 11:59:57 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 11:59:57 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:00:06 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 12:00:06 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 12:00:09 [main] INFO  Testcases.LoginDataDrivenTest - Local WebDriver initialized
+2026-01-04 12:00:09 [main] INFO  Testcases.LoginDataDrivenTest - Local Browser launched: chrome
+2026-01-04 12:00:13 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:00:13 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:00:19 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 12:00:19 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 12:00:22 [main] INFO  Testcases.LoginDataDrivenTest - Local WebDriver initialized
+2026-01-04 12:00:22 [main] INFO  Testcases.LoginDataDrivenTest - Local Browser launched: chrome
+2026-01-04 12:00:26 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:00:26 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:00:32 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 12:00:32 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 12:00:34 [main] INFO  Testcases.LoginDataDrivenTest - Local WebDriver initialized
+2026-01-04 12:00:34 [main] INFO  Testcases.LoginDataDrivenTest - Local Browser launched: chrome
+2026-01-04 12:00:38 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:00:46 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 12:00:46 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 12:00:49 [main] INFO  Testcases.LoginDataDrivenTest - Local WebDriver initialized
+2026-01-04 12:00:49 [main] INFO  Testcases.LoginDataDrivenTest - Local Browser launched: chrome
+2026-01-04 12:00:52 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:00:58 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 12:00:58 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 12:01:01 [main] INFO  Testcases.LoginDataDrivenTest - Local WebDriver initialized
+2026-01-04 12:01:01 [main] INFO  Testcases.LoginDataDrivenTest - Local Browser launched: chrome
+2026-01-04 12:01:02 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:01:10 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 12:01:10 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 12:01:13 [main] INFO  Testcases.LoginDataDrivenTest - Local WebDriver initialized
+2026-01-04 12:01:13 [main] INFO  Testcases.LoginDataDrivenTest - Local Browser launched: chrome
+2026-01-04 12:01:14 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:01:27 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 12:01:29 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 12:01:33 [main] INFO  Testcases.LoginTestCase - Local WebDriver initialized
+2026-01-04 12:01:33 [main] INFO  Testcases.LoginTestCase - Local Browser launched: chrome
+2026-01-04 12:01:37 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:01:37 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:02:02 [main] ERROR Testcases.LoginTestCase - ✗ Login failed for: Admin
+2026-01-04 12:02:03 [main] INFO  Testcases.LoginTestCase - Browser closed
+2026-01-04 12:02:03 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 12:02:06 [main] INFO  Testcases.LoginTestCase - Local WebDriver initialized
+2026-01-04 12:02:06 [main] INFO  Testcases.LoginTestCase - Local Browser launched: chrome
+2026-01-04 12:02:09 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:02:10 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:02:14 [main] INFO  Testcases.LoginTestCase - ✓ Login failed as expected for: InvalidUser
+2026-01-04 12:02:14 [main] INFO  Testcases.LoginTestCase - Browser closed
+2026-01-04 12:02:14 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 12:02:17 [main] INFO  Testcases.LoginTestCase - Local WebDriver initialized
+2026-01-04 12:02:17 [main] INFO  Testcases.LoginTestCase - Local Browser launched: chrome
+2026-01-04 12:02:22 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:03:06 [main] INFO  Testcases.LoginTestCase - Browser closed
+2026-01-04 12:05:24 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 12:05:28 [main] INFO  Testcases.LoginTestCase - Local WebDriver initialized
+2026-01-04 12:05:28 [main] INFO  Testcases.LoginTestCase - Local Browser launched: chrome
+2026-01-04 12:05:32 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:05:32 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:05:57 [main] ERROR Testcases.LoginTestCase - ✗ Login failed for: Admin
+2026-01-04 12:05:58 [main] INFO  Testcases.LoginTestCase - Browser closed
+2026-01-04 12:05:58 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 12:06:00 [main] INFO  Testcases.LoginTestCase - Local WebDriver initialized
+2026-01-04 12:06:00 [main] INFO  Testcases.LoginTestCase - Local Browser launched: chrome
+2026-01-04 12:06:04 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:06:05 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:06:10 [main] INFO  Testcases.LoginTestCase - ✓ Login failed as expected for: InvalidUser
+2026-01-04 12:06:11 [main] INFO  Testcases.LoginTestCase - Browser closed
+2026-01-04 12:06:14 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 12:06:19 [main] INFO  Testcases.LoginTestCase - Local WebDriver initialized
+2026-01-04 12:06:19 [main] INFO  Testcases.LoginTestCase - Local Browser launched: chrome
+2026-01-04 12:06:24 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:06:27 [main] INFO  Testcases.LoginTestCase - Browser closed
+2026-01-04 12:06:29 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 12:06:32 [main] INFO  Testcases.LoginDataDrivenTest - Local WebDriver initialized
+2026-01-04 12:06:32 [main] INFO  Testcases.LoginDataDrivenTest - Local Browser launched: chrome
+2026-01-04 12:06:35 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:06:36 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:06:46 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 12:06:46 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 12:06:49 [main] INFO  Testcases.LoginDataDrivenTest - Local WebDriver initialized
+2026-01-04 12:06:49 [main] INFO  Testcases.LoginDataDrivenTest - Local Browser launched: chrome
+2026-01-04 12:06:53 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:06:54 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:06:59 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 12:06:59 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 12:07:01 [main] INFO  Testcases.LoginDataDrivenTest - Local WebDriver initialized
+2026-01-04 12:07:01 [main] INFO  Testcases.LoginDataDrivenTest - Local Browser launched: chrome
+2026-01-04 12:07:05 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:07:06 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:07:11 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 12:07:11 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 12:07:14 [main] INFO  Testcases.LoginDataDrivenTest - Local WebDriver initialized
+2026-01-04 12:07:14 [main] INFO  Testcases.LoginDataDrivenTest - Local Browser launched: chrome
+2026-01-04 12:07:17 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:07:25 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 12:07:25 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 12:07:28 [main] INFO  Testcases.LoginDataDrivenTest - Local WebDriver initialized
+2026-01-04 12:07:28 [main] INFO  Testcases.LoginDataDrivenTest - Local Browser launched: chrome
+2026-01-04 12:07:33 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:07:39 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 12:07:39 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 12:07:42 [main] INFO  Testcases.LoginDataDrivenTest - Local WebDriver initialized
+2026-01-04 12:07:42 [main] INFO  Testcases.LoginDataDrivenTest - Local Browser launched: chrome
+2026-01-04 12:07:46 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:07:52 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 12:07:52 [main] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2026-01-04 12:07:55 [main] INFO  Testcases.LoginDataDrivenTest - Local WebDriver initialized
+2026-01-04 12:07:55 [main] INFO  Testcases.LoginDataDrivenTest - Local Browser launched: chrome
+2026-01-04 12:07:56 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:08:09 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2026-01-04 12:08:12 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 12:08:16 [main] INFO  Testcases.LoginTestCase - Local WebDriver initialized
+2026-01-04 12:08:16 [main] INFO  Testcases.LoginTestCase - Local Browser launched: chrome
+2026-01-04 12:08:17 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:08:21 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:08:47 [main] ERROR Testcases.LoginTestCase - ✗ Login failed for: Admin
+2026-01-04 12:08:48 [main] INFO  Testcases.LoginTestCase - Browser closed
+2026-01-04 12:08:48 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 12:08:51 [main] INFO  Testcases.LoginTestCase - Local WebDriver initialized
+2026-01-04 12:08:51 [main] INFO  Testcases.LoginTestCase - Local Browser launched: chrome
+2026-01-04 12:08:58 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:09:00 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:09:07 [main] INFO  Testcases.LoginTestCase - ✓ Login failed as expected for: InvalidUser
+2026-01-04 12:09:08 [main] INFO  Testcases.LoginTestCase - Browser closed
+2026-01-04 12:09:08 [main] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2026-01-04 12:09:10 [main] INFO  Testcases.LoginTestCase - Local WebDriver initialized
+2026-01-04 12:09:10 [main] INFO  Testcases.LoginTestCase - Local Browser launched: chrome
+2026-01-04 12:09:15 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-04 12:10:02 [main] INFO  Testcases.LoginTestCase - Browser closed

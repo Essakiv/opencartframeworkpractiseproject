@@ -1,0 +1,48 @@
+2025-12-27 18:55:36 [main] INFO  Testbase.BaseClass - ========== Starting Browser Setup ==========
+2025-12-27 18:55:42 [main] INFO  Testbase.BaseClass - Chrome Browser Launched Successfully
+2025-12-27 18:55:42 [main] INFO  Testbase.BaseClass - Browser Window Maximized
+2025-12-27 18:55:42 [main] INFO  Testbase.BaseClass - Implicit Wait Set to 10 Seconds
+2025-12-27 18:56:07 [main] INFO  Testbase.BaseClass - Navigated to OrangeHRM Login Page
+2025-12-27 18:56:07 [main] INFO  Pageobjects.LoginPage - LoginPage Initialized
+2025-12-27 18:56:07 [main] INFO  Testbase.BaseClass - Test Setup Completed
+2025-12-27 18:56:07 [main] INFO  Testbase.BaseClass - ========== TEST: Valid Login Test Started ==========
+2025-12-27 18:56:07 [main] INFO  Pageobjects.LoginPage - Performing Login with Username: Admin
+2025-12-27 18:56:19 [main] INFO  Pageobjects.LoginPage - Entered Username: Admin
+2025-12-27 18:56:20 [main] INFO  Pageobjects.LoginPage - Entered Password: ********
+2025-12-27 18:56:23 [main] INFO  Pageobjects.LoginPage - Clicked on Login Button
+2025-12-27 18:56:53 [main] ERROR Pageobjects.LoginPage - Login Failed - Dashboard not displayed
+2025-12-27 18:56:54 [main] INFO  Testbase.BaseClass - Browser Closed Successfully
+2025-12-27 18:56:54 [main] INFO  Testbase.BaseClass - ========== Test Execution Completed ==========
+2025-12-27 18:56:54 [main] INFO  Testbase.BaseClass - ========== Starting Browser Setup ==========
+2025-12-27 18:56:58 [main] INFO  Testbase.BaseClass - Chrome Browser Launched Successfully
+2025-12-27 18:56:59 [main] INFO  Testbase.BaseClass - Browser Window Maximized
+2025-12-27 18:56:59 [main] INFO  Testbase.BaseClass - Implicit Wait Set to 10 Seconds
+2025-12-27 18:57:04 [main] INFO  Testbase.BaseClass - Navigated to OrangeHRM Login Page
+2025-12-27 18:57:04 [main] INFO  Pageobjects.LoginPage - LoginPage Initialized
+2025-12-27 18:57:04 [main] INFO  Testbase.BaseClass - Test Setup Completed
+2025-12-27 18:57:04 [main] INFO  Testbase.BaseClass - ========== TEST: Invalid Login Test Started ==========
+2025-12-27 18:57:04 [main] DEBUG Testbase.BaseClass - Generated Random Username: User_oYZLmBgS
+2025-12-27 18:57:04 [main] DEBUG Testbase.BaseClass - Generated Random Password: bv9JTboVLf
+2025-12-27 18:57:04 [main] INFO  Testbase.BaseClass - Testing with Random Username: User_oYZLmBgS
+2025-12-27 18:57:04 [main] INFO  Testbase.BaseClass - Testing with Random Password: bv9JTboVLf
+2025-12-27 18:57:04 [main] INFO  Pageobjects.LoginPage - Performing Login with Username: User_oYZLmBgS
+2025-12-27 18:57:09 [main] INFO  Pageobjects.LoginPage - Entered Username: User_oYZLmBgS
+2025-12-27 18:57:09 [main] INFO  Pageobjects.LoginPage - Entered Password: ********
+2025-12-27 18:57:11 [main] INFO  Pageobjects.LoginPage - Clicked on Login Button
+2025-12-27 18:57:12 [main] WARN  Pageobjects.LoginPage - Error Message Displayed: Invalid credentials
+2025-12-27 18:57:12 [main] INFO  Testbase.BaseClass - ========== TEST: Invalid Login Test PASSED ==========
+2025-12-27 18:57:14 [main] INFO  Testbase.BaseClass - Browser Closed Successfully
+2025-12-27 18:57:14 [main] INFO  Testbase.BaseClass - ========== Test Execution Completed ==========
+2025-12-27 18:57:14 [main] INFO  Testbase.BaseClass - ========== Starting Browser Setup ==========
+2025-12-27 18:57:19 [main] INFO  Testbase.BaseClass - Chrome Browser Launched Successfully
+2025-12-27 18:57:19 [main] INFO  Testbase.BaseClass - Browser Window Maximized
+2025-12-27 18:57:19 [main] INFO  Testbase.BaseClass - Implicit Wait Set to 10 Seconds
+2025-12-27 18:57:47 [main] INFO  Testbase.BaseClass - Navigated to OrangeHRM Login Page
+2025-12-27 18:57:47 [main] INFO  Pageobjects.LoginPage - LoginPage Initialized
+2025-12-27 18:57:47 [main] INFO  Testbase.BaseClass - Test Setup Completed
+2025-12-27 18:57:47 [main] INFO  Testbase.BaseClass - ========== TEST: Empty Credentials Test Started ==========
+2025-12-27 18:57:51 [main] INFO  Pageobjects.LoginPage - Clicked on Login Button
+2025-12-27 18:58:21 [main] ERROR Pageobjects.LoginPage - Login Failed - Dashboard not displayed
+2025-12-27 18:58:21 [main] INFO  Testbase.BaseClass - ========== TEST: Empty Credentials Test PASSED ==========
+2025-12-27 18:58:22 [main] INFO  Testbase.BaseClass - Browser Closed Successfully
+2025-12-27 18:58:22 [main] INFO  Testbase.BaseClass - ========== Test Execution Completed ==========

@@ -1,0 +1,4204 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Automation Test Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">OrangeHRM Test Execution Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sunday, December 28, 2025, 06:21 PM (IST)</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="warning" href="#"><span>Warning</span><span class="status warning"></span></a>
+<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">smoke</a><a class="dropdown-item" href="#">datadriven</a><a class="dropdown-item" href="#">regression</a><a class="dropdown-item" href="#">login</a><a class="dropdown-item" href="#">excel</a><a class="dropdown-item" href="#">sanity</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithLocalDataProvider</p>
+            <p class="text-sm">
+              <span>6:22:08 PM</span> / <span>00:00:00:038</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testLoginWithLocalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:22:08 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:22:08 PM</span>
+<span class='badge badge-default'>00:00:00:038</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:22:08 PM</td>
+        <td>
+          Test Started: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:22:08 PM</td>
+        <td>
+          Description: Data Driven Login Test with Local DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:22:08 PM</td>
+        <td>
+          Testing with Username: Admin, Expected: Pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithLocalDataProvider</p>
+            <p class="text-sm">
+              <span>6:22:12 PM</span> / <span>00:00:07:482</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testLoginWithLocalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:22:12 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:22:20 PM</span>
+<span class='badge badge-default'>00:00:07:482</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:22:12 PM</td>
+        <td>
+          Test Started: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:22:12 PM</td>
+        <td>
+          Description: Data Driven Login Test with Local DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:22:12 PM</td>
+        <td>
+          Testing with Username: Admin, Expected: Pass
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:22:20 PM</td>
+        <td>
+          Remote Browser launched: edge on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithLocalDataProvider</p>
+            <p class="text-sm">
+              <span>6:22:21 PM</span> / <span>00:00:33:495</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testLoginWithLocalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:22:21 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:22:55 PM</span>
+<span class='badge badge-default'>00:00:33:495</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\esakivel\eclipse-workspace8\Opencartframeworkpractiseproject/Screenshots/testLoginWithLocalDataProvider_20251228_182224.png' src="C:\Users\esakivel\eclipse-workspace8\Opencartframeworkpractiseproject/Screenshots/testLoginWithLocalDataProvider_20251228_182224.png">
+    <div class="title">Failure Screenshot</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:22:21 PM</td>
+        <td>
+          Test Started: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:22:21 PM</td>
+        <td>
+          Description: Data Driven Login Test with Local DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:22:21 PM</td>
+        <td>
+          Testing with Username: Admin, Expected: Pass
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:22:24 PM</td>
+        <td>
+          ✗ Test FAILED: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:22:24 PM</td>
+        <td>
+          Failure Reason: The element with the reference f522203c-fa99-4379-8f6b-ea620359edf4 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ead55674-2273-464b-889b-baa620930824, clickElement {id=f522203c-fa99-4379-8f6b-ea620359edf4}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8300, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on Windows 11 (ead55674-2273-464b-889b-baa620930824)] -> css selector: button[type='submit']]
+Session ID: ead55674-2273-464b-889b-baa620930824
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:22:36 PM</td>
+        <td>
+          Execution Time: 12.32 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:22:41 PM</td>
+        <td>
+          ✗ Test FAILED: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:22:41 PM</td>
+        <td>
+          Failure Reason: Unable to execute request for an existing session: java.io.IOException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@3b376ed9 rejected from java.util.concurrent.ThreadPoolExecutor@605a838e[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 54]
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [77fb8a116acc96110c76a89b898d9b3f, isElementDisplayed {id=f.1B4948396D1CF028F0AB66BB1F720F5D.d.4A56D09A3B44F755502CAF4B93AEAFCE.e.4}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.96, fedcm:accounts: true, goog:processID: 25448, ms:edgeOptions: {debuggerAddress: localhost:51975}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\esakivel\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.44:4444/sess..., se:cdpVersion: 143.0.3650.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: MicrosoftEdge on Windows 11 (77fb8a116acc96110c76a89b898d9b3f)] -> name: username]
+Session ID: 77fb8a116acc96110c76a89b898d9b3f
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>6:22:41 PM</td>
+        <td>
+          Could not capture screenshot: Task java.util.concurrent.FutureTask@95b7946[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@396422f0[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000001ea4f394f28@6687fca0]] rejected from java.util.concurrent.ThreadPoolExecutor@605a838e[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 56]
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [77fb8a116acc96110c76a89b898d9b3f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.96, fedcm:accounts: true, goog:processID: 25448, ms:edgeOptions: {debuggerAddress: localhost:51975}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\esakivel\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.44:4444/sess..., se:cdpVersion: 143.0.3650.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 77fb8a116acc96110c76a89b898d9b3f
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:22:41 PM</td>
+        <td>
+          Execution Time: 19.86 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:22:41 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:22:41 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:22:46 PM</td>
+        <td>
+          Remote Browser launched: edge on windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:22:47 PM</td>
+        <td>
+          Login failed but expected to pass for: Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:22:47 PM</td>
+        <td>
+          ✗ Test FAILED: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:22:47 PM</td>
+        <td>
+          Failure Reason: Login should be successful for user: Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:22:55 PM</td>
+        <td>
+          Remote Browser launched: firefox on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithLocalDataProvider</p>
+            <p class="text-sm">
+              <span>6:23:04 PM</span> / <span>00:00:00:001</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testLoginWithLocalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:23:04 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:23:04 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:04 PM</td>
+        <td>
+          Test Started: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:04 PM</td>
+        <td>
+          Description: Data Driven Login Test with Local DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:04 PM</td>
+        <td>
+          Testing with Username: fdhg, Expected: Fail
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="5"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithLocalDataProvider</p>
+            <p class="text-sm">
+              <span>6:23:07 PM</span> / <span>00:00:14:721</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testLoginWithLocalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:23:07 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:23:22 PM</span>
+<span class='badge badge-default'>00:00:14:721</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\esakivel\eclipse-workspace8\Opencartframeworkpractiseproject/Screenshots/testLoginWithLocalDataProvider_20251228_182247.png' src="C:\Users\esakivel\eclipse-workspace8\Opencartframeworkpractiseproject/Screenshots/testLoginWithLocalDataProvider_20251228_182247.png">
+    <div class="title">Failure Screenshot</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:07 PM</td>
+        <td>
+          Test Started: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:07 PM</td>
+        <td>
+          Description: Data Driven Login Test with Local DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:07 PM</td>
+        <td>
+          Testing with Username: fdhg, Expected: Fail
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:08 PM</td>
+        <td>
+          Execution Time: 39.25 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:23:17 PM</td>
+        <td>
+          ✗ Test FAILED: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:23:17 PM</td>
+        <td>
+          Failure Reason: Tried to run command without establishing a connection
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3bb0c84d-d294-412d-821b-f285b9434193, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 34728, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 3bb0c84d-d294-412d-821b-f285b9434193
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:23:17 PM</td>
+        <td>
+          ✗ Test FAILED: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:23:17 PM</td>
+        <td>
+          Failure Reason: Unable to execute request for an existing session: java.io.IOException: Task jdk.internal.net.http.SocketTube$InternalWriteSubscriber$$Lambda/0x000001ea4f414440@45f1e7e2 rejected from java.util.concurrent.ThreadPoolExecutor@216595cf[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 53]
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3bb0c84d-d294-412d-821b-f285b9434193, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 34728, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 3bb0c84d-d294-412d-821b-f285b9434193
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:17 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>6:23:17 PM</td>
+        <td>
+          Could not capture screenshot: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3bb0c84d-d294-412d-821b-f285b9434193, screenshot []]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 34728, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:17 PM</td>
+        <td>
+          Execution Time: 9.46 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>6:23:17 PM</td>
+        <td>
+          Could not capture screenshot: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3bb0c84d-d294-412d-821b-f285b9434193, screenshot []]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 34728, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:17 PM</td>
+        <td>
+          Execution Time: 12.37 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:17 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:17 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:21 PM</td>
+        <td>
+          Remote Browser launched: edge on windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:22 PM</td>
+        <td>
+          Remote Browser launched: chrome on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithLocalDataProvider</p>
+            <p class="text-sm">
+              <span>6:23:30 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testLoginWithLocalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:23:30 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:23:30 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:30 PM</td>
+        <td>
+          Test Started: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:30 PM</td>
+        <td>
+          Description: Data Driven Login Test with Local DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:30 PM</td>
+        <td>
+          Testing with Username: jkjjkhhg, Expected: Fail
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="7"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithLocalDataProvider</p>
+            <p class="text-sm">
+              <span>6:23:31 PM</span> / <span>00:00:03:804</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testLoginWithLocalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:23:31 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:23:35 PM</span>
+<span class='badge badge-default'>00:00:03:804</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:31 PM</td>
+        <td>
+          Test Started: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:31 PM</td>
+        <td>
+          Description: Data Driven Login Test with Local DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:31 PM</td>
+        <td>
+          Testing with Username: fdhg, Expected: Fail
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:34 PM</td>
+        <td>
+          Remote Browser launched: firefox on windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:23:35 PM</td>
+        <td>
+          ✗ Test FAILED: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:23:35 PM</td>
+        <td>
+          Failure Reason: stale element reference: stale element not found
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [afe274a9b8402c10c36ae37541f19258, isElementDisplayed {id=f.8F85B8C11AD9A662C427B932AF11881E.d.9DAB6440029D7D08346E626A153EF844.e.5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\esakivel\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50547}, goog:processID: 2088, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.44:4444/sess..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (afe274a9b8402c10c36ae37541f19258)] -> name: username]
+Session ID: afe274a9b8402c10c36ae37541f19258
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="8"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithLocalDataProvider</p>
+            <p class="text-sm">
+              <span>6:23:43 PM</span> / <span>00:00:14:445</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testLoginWithLocalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:23:43 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:23:58 PM</span>
+<span class='badge badge-default'>00:00:14:445</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\esakivel\eclipse-workspace8\Opencartframeworkpractiseproject/Screenshots/testLoginWithLocalDataProvider_20251228_182335.png' src="C:\Users\esakivel\eclipse-workspace8\Opencartframeworkpractiseproject/Screenshots/testLoginWithLocalDataProvider_20251228_182335.png">
+    <div class="title">Failure Screenshot</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:43 PM</td>
+        <td>
+          Test Started: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:43 PM</td>
+        <td>
+          Description: Data Driven Login Test with Local DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:43 PM</td>
+        <td>
+          Testing with Username: jkjjkhhg, Expected: Fail
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:45 PM</td>
+        <td>
+          Execution Time: 4.80 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:23:48 PM</td>
+        <td>
+          ✗ Test FAILED: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:23:48 PM</td>
+        <td>
+          Failure Reason: The element with the reference b1a7c650-d07e-47b5-8e25-acc0d6ed007b is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a331aded-4042-42dd-ab82-eb720ed96ea4, isElementDisplayed {id=b1a7c650-d07e-47b5-8e25-acc0d6ed007b}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5740, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on Windows 11 (a331aded-4042-42dd-ab82-eb720ed96ea4)] -> name: username]
+Session ID: a331aded-4042-42dd-ab82-eb720ed96ea4
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>6:23:51 PM</td>
+        <td>
+          Could not capture screenshot: Tried to run command without establishing a connection
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a331aded-4042-42dd-ab82-eb720ed96ea4, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5740, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a331aded-4042-42dd-ab82-eb720ed96ea4
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:51 PM</td>
+        <td>
+          Execution Time: 16.60 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:23:51 PM</td>
+        <td>
+          ✗ Test FAILED: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:23:51 PM</td>
+        <td>
+          Failure Reason: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a331aded-4042-42dd-ab82-eb720ed96ea4, isElementDisplayed [id]]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5740, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on Windows 11 (a331aded-4042-42dd-ab82-eb720ed96ea4)] -> name: username]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>6:23:51 PM</td>
+        <td>
+          Could not capture screenshot: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5740, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:51 PM</td>
+        <td>
+          Execution Time: 7.99 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:51 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:58 PM</td>
+        <td>
+          Remote Browser launched: chrome on windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:23:58 PM</td>
+        <td>
+          Remote Browser launched: edge on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="9"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithLocalDataProvider</p>
+            <p class="text-sm">
+              <span>6:24:00 PM</span> / <span>00:00:00:002</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">testLoginWithLocalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:24:00 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:24:00 PM</span>
+<span class='badge badge-default'>00:00:00:002</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:00 PM</td>
+        <td>
+          Test Started: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:00 PM</td>
+        <td>
+          Description: Data Driven Login Test with Local DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:24:00 PM</td>
+        <td>
+          ⚠ Test SKIPPED: testLoginWithLocalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:24:00 PM</td>
+        <td>
+          Skip Reason: Cannot find session with id: a331aded-4042-42dd-ab82-eb720ed96ea4
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a331aded-4042-42dd-ab82-eb720ed96ea4, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5740, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a331aded-4042-42dd-ab82-eb720ed96ea4
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="10"
+          author=""
+          tag="login regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">testValidLogin</p>
+            <p class="text-sm">
+              <span>6:24:01 PM</span> / <span>00:00:14:316</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testValidLogin</h5>
+<span class='badge badge-success'>12.28.2025 6:24:01 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:24:15 PM</span>
+<span class='badge badge-default'>00:00:14:316</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">login</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:01 PM</td>
+        <td>
+          Test Started: testValidLogin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:01 PM</td>
+        <td>
+          Description: Verify valid user can login successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:01 PM</td>
+        <td>
+          Starting Valid Login Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:24:05 PM</td>
+        <td>
+          ✗ Test FAILED: testValidLogin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:24:05 PM</td>
+        <td>
+          Failure Reason: Unable to execute request for an existing session: java.io.IOException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@75369df3 rejected from java.util.concurrent.ThreadPoolExecutor@34bcd871[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 59]
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [d97722c2d91d6586f9e4f13b833a493d, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.96, fedcm:accounts: true, goog:processID: 33916, ms:edgeOptions: {debuggerAddress: localhost:57134}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\esakivel\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.44:4444/sess..., se:cdpVersion: 143.0.3650.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d97722c2d91d6586f9e4f13b833a493d
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>6:24:05 PM</td>
+        <td>
+          Could not capture screenshot: Task java.util.concurrent.FutureTask@2fc1f46b[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4564b28f[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000001ea4f394f28@322d9084]] rejected from java.util.concurrent.ThreadPoolExecutor@34bcd871[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 61]
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [d97722c2d91d6586f9e4f13b833a493d, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.96, fedcm:accounts: true, goog:processID: 33916, ms:edgeOptions: {debuggerAddress: localhost:57134}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\esakivel\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.44:4444/sess..., se:cdpVersion: 143.0.3650.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d97722c2d91d6586f9e4f13b833a493d
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:05 PM</td>
+        <td>
+          Execution Time: 4.38 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:05 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:15 PM</td>
+        <td>
+          Remote Browser launched: edge on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="11"
+          author=""
+          tag="login regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">testInvalidLogin</p>
+            <p class="text-sm">
+              <span>6:24:17 PM</span> / <span>00:00:09:468</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">testInvalidLogin</h5>
+<span class='badge badge-success'>12.28.2025 6:24:17 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:24:27 PM</span>
+<span class='badge badge-default'>00:00:09:468</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">login</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:17 PM</td>
+        <td>
+          Test Started: testInvalidLogin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:17 PM</td>
+        <td>
+          Description: Verify invalid user cannot login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:24:17 PM</td>
+        <td>
+          ⚠ Test SKIPPED: testInvalidLogin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:24:17 PM</td>
+        <td>
+          Skip Reason: Task java.util.concurrent.FutureTask@6f5dc173[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@6f936b2c[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000001ea4f394f28@175065bd]] rejected from java.util.concurrent.ThreadPoolExecutor@34bcd871[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 61]
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [d97722c2d91d6586f9e4f13b833a493d, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.96, fedcm:accounts: true, goog:processID: 33916, ms:edgeOptions: {debuggerAddress: localhost:57134}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\esakivel\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.44:4444/sess..., se:cdpVersion: 143.0.3650.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d97722c2d91d6586f9e4f13b833a493d
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:22 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:27 PM</td>
+        <td>
+          Remote Browser launched: chrome on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="warning" test-id="12"
+          author=""
+          tag="login regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">testValidLogin</p>
+            <p class="text-sm">
+              <span>6:24:28 PM</span> / <span>00:00:05:954</span>
+              <span class="badge warning-bg log float-right">Warning</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-warning">testValidLogin</h5>
+<span class='badge badge-success'>12.28.2025 6:24:28 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:24:34 PM</span>
+<span class='badge badge-default'>00:00:05:954</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">login</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:28 PM</td>
+        <td>
+          Test Started: testValidLogin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:28 PM</td>
+        <td>
+          Description: Verify valid user can login successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:28 PM</td>
+        <td>
+          Starting Valid Login Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:30 PM</td>
+        <td>
+          Remote Browser launched: firefox on windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:34 PM</td>
+        <td>
+          Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:34 PM</td>
+        <td>
+          Username: 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>6:24:34 PM</td>
+        <td>
+          Using default credentials
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="13"
+          author=""
+          tag="login regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">testValidLogin</p>
+            <p class="text-sm">
+              <span>6:24:38 PM</span> / <span>00:00:17:474</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testValidLogin</h5>
+<span class='badge badge-success'>12.28.2025 6:24:38 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:24:55 PM</span>
+<span class='badge badge-default'>00:00:17:474</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">login</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\esakivel\eclipse-workspace8\Opencartframeworkpractiseproject/Screenshots/testValidLogin_20251228_182448.png' src="C:\Users\esakivel\eclipse-workspace8\Opencartframeworkpractiseproject/Screenshots/testValidLogin_20251228_182448.png">
+    <div class="title">Failure Screenshot</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:38 PM</td>
+        <td>
+          Test Started: testValidLogin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:38 PM</td>
+        <td>
+          Description: Verify valid user can login successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:38 PM</td>
+        <td>
+          Starting Valid Login Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:48 PM</td>
+        <td>
+          Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:24:48 PM</td>
+        <td>
+          ✗ Test FAILED: testValidLogin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:24:48 PM</td>
+        <td>
+          Failure Reason: The element with the reference cc55cc34-9ba4-4908-b9ab-769ffc38779d is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [25a1ce58-8d63-4cea-aa4a-4997d2d03b29, isElementDisplayed {id=cc55cc34-9ba4-4908-b9ab-769ffc38779d}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10912, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on Windows 11 (25a1ce58-8d63-4cea-aa4a-4997d2d03b29)] -> name: username]
+Session ID: 25a1ce58-8d63-4cea-aa4a-4997d2d03b29
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:48 PM</td>
+        <td>
+          Username: 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>6:24:48 PM</td>
+        <td>
+          Using default credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:48 PM</td>
+        <td>
+          Execution Time: 19.56 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:24:51 PM</td>
+        <td>
+          ✗ Test FAILED: testValidLogin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:24:51 PM</td>
+        <td>
+          Failure Reason: Tried to run command without establishing a connection
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [25a1ce58-8d63-4cea-aa4a-4997d2d03b29, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10912, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 25a1ce58-8d63-4cea-aa4a-4997d2d03b29
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:51 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>6:24:51 PM</td>
+        <td>
+          Could not capture screenshot: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [25a1ce58-8d63-4cea-aa4a-4997d2d03b29, screenshot []]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10912, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:51 PM</td>
+        <td>
+          Execution Time: 13.89 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:51 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:55 PM</td>
+        <td>
+          Remote Browser launched: edge on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="14"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithExternalDataProvider</p>
+            <p class="text-sm">
+              <span>6:24:59 PM</span> / <span>00:00:04:637</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">testLoginWithExternalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:24:59 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:25:03 PM</span>
+<span class='badge badge-default'>00:00:04:637</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:59 PM</td>
+        <td>
+          Test Started: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:24:59 PM</td>
+        <td>
+          Description: Data Driven Login Test with External DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:24:59 PM</td>
+        <td>
+          ⚠ Test SKIPPED: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:24:59 PM</td>
+        <td>
+          Skip Reason: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a331aded-4042-42dd-ab82-eb720ed96ea4, quit []]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5740, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:00 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:03 PM</td>
+        <td>
+          Remote Browser launched: chrome on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag="login regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">testInvalidLogin</p>
+            <p class="text-sm">
+              <span>6:25:07 PM</span> / <span>00:00:17:532</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testInvalidLogin</h5>
+<span class='badge badge-success'>12.28.2025 6:25:07 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:25:25 PM</span>
+<span class='badge badge-default'>00:00:17:532</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">login</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:07 PM</td>
+        <td>
+          Test Started: testInvalidLogin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:07 PM</td>
+        <td>
+          Description: Verify invalid user cannot login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:07 PM</td>
+        <td>
+          Starting Invalid Login Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:08 PM</td>
+        <td>
+          Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:08 PM</td>
+        <td>
+          Username: 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:25:13 PM</td>
+        <td>
+          Login failed as expected for: InvalidUser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:25:13 PM</td>
+        <td>
+          ✓ Test PASSED: testInvalidLogin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:13 PM</td>
+        <td>
+          Execution Time: 5.62 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:13 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:25 PM</td>
+        <td>
+          Remote Browser launched: firefox on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag="login regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">testInvalidLogin</p>
+            <p class="text-sm">
+              <span>6:25:39 PM</span> / <span>00:00:13:053</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testInvalidLogin</h5>
+<span class='badge badge-success'>12.28.2025 6:25:39 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:25:52 PM</span>
+<span class='badge badge-default'>00:00:13:053</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">login</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:39 PM</td>
+        <td>
+          Test Started: testInvalidLogin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:39 PM</td>
+        <td>
+          Description: Verify invalid user cannot login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:39 PM</td>
+        <td>
+          Starting Invalid Login Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:41 PM</td>
+        <td>
+          Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:42 PM</td>
+        <td>
+          Username: 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:25:47 PM</td>
+        <td>
+          Login failed as expected for: InvalidUser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:25:47 PM</td>
+        <td>
+          ✓ Test PASSED: testInvalidLogin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:47 PM</td>
+        <td>
+          Execution Time: 7.96 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:50 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:52 PM</td>
+        <td>
+          Remote Browser launched: chrome on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="17"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithExternalDataProvider</p>
+            <p class="text-sm">
+              <span>6:25:56 PM</span> / <span>00:00:03:339</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">testLoginWithExternalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:25:56 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:25:59 PM</span>
+<span class='badge badge-default'>00:00:03:339</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:56 PM</td>
+        <td>
+          Test Started: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:56 PM</td>
+        <td>
+          Description: Data Driven Login Test with External DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:25:56 PM</td>
+        <td>
+          ⚠ Test SKIPPED: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:25:56 PM</td>
+        <td>
+          Skip Reason: Cannot find session with id: a331aded-4042-42dd-ab82-eb720ed96ea4
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a331aded-4042-42dd-ab82-eb720ed96ea4, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5740, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a331aded-4042-42dd-ab82-eb720ed96ea4
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:57 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:25:59 PM</td>
+        <td>
+          Remote Browser launched: edge on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="18"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithExternalDataProvider</p>
+            <p class="text-sm">
+              <span>6:26:05 PM</span> / <span>00:00:12:661</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">testLoginWithExternalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:26:05 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:26:17 PM</span>
+<span class='badge badge-default'>00:00:12:661</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:26:05 PM</td>
+        <td>
+          Test Started: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:26:05 PM</td>
+        <td>
+          Description: Data Driven Login Test with External DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:26:05 PM</td>
+        <td>
+          ⚠ Test SKIPPED: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:26:05 PM</td>
+        <td>
+          Skip Reason: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a331aded-4042-42dd-ab82-eb720ed96ea4, quit []]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5740, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:26:05 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:26:17 PM</td>
+        <td>
+          Remote Browser launched: firefox on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithExternalDataProvider</p>
+            <p class="text-sm">
+              <span>6:26:24 PM</span> / <span>00:00:23:279</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testLoginWithExternalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:26:24 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:26:47 PM</span>
+<span class='badge badge-default'>00:00:23:279</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:26:24 PM</td>
+        <td>
+          Test Started: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:26:24 PM</td>
+        <td>
+          Description: Data Driven Login Test with External DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:26:24 PM</td>
+        <td>
+          Testing with Username: Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:26:39 PM</td>
+        <td>
+          Login successful for: Admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:26:42 PM</td>
+        <td>
+          ✓ Test PASSED: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:26:42 PM</td>
+        <td>
+          Execution Time: 18.40 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:26:44 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:26:47 PM</td>
+        <td>
+          Remote Browser launched: edge on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="20"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithExternalDataProvider</p>
+            <p class="text-sm">
+              <span>6:26:51 PM</span> / <span>00:00:03:736</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">testLoginWithExternalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:26:51 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:26:54 PM</span>
+<span class='badge badge-default'>00:00:03:736</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:26:51 PM</td>
+        <td>
+          Test Started: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:26:51 PM</td>
+        <td>
+          Description: Data Driven Login Test with External DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:26:51 PM</td>
+        <td>
+          ⚠ Test SKIPPED: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:26:51 PM</td>
+        <td>
+          Skip Reason: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a331aded-4042-42dd-ab82-eb720ed96ea4, quit []]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5740, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:26:51 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:26:54 PM</td>
+        <td>
+          Remote Browser launched: chrome on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="21"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithExternalDataProvider</p>
+            <p class="text-sm">
+              <span>6:27:03 PM</span> / <span>00:00:04:922</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">testLoginWithExternalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:27:03 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:27:08 PM</span>
+<span class='badge badge-default'>00:00:04:922</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:03 PM</td>
+        <td>
+          Test Started: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:03 PM</td>
+        <td>
+          Description: Data Driven Login Test with External DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:27:03 PM</td>
+        <td>
+          ⚠ Test SKIPPED: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:27:03 PM</td>
+        <td>
+          Skip Reason: Cannot find session with id: a331aded-4042-42dd-ab82-eb720ed96ea4
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a331aded-4042-42dd-ab82-eb720ed96ea4, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5740, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a331aded-4042-42dd-ab82-eb720ed96ea4
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:04 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:08 PM</td>
+        <td>
+          Remote Browser launched: edge on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="22"
+          author=""
+          tag="regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testEmptyCredentials</p>
+            <p class="text-sm">
+              <span>6:27:13 PM</span> / <span>00:00:05:831</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">testEmptyCredentials</h5>
+<span class='badge badge-success'>12.28.2025 6:27:13 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:27:19 PM</span>
+<span class='badge badge-default'>00:00:05:831</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:13 PM</td>
+        <td>
+          Test Started: testEmptyCredentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:13 PM</td>
+        <td>
+          Description: Verify login with empty credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:27:13 PM</td>
+        <td>
+          ⚠ Test SKIPPED: testEmptyCredentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:27:13 PM</td>
+        <td>
+          Skip Reason: Task java.util.concurrent.FutureTask@6f5dc173[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@6f936b2c[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000001ea4f394f28@175065bd]] rejected from java.util.concurrent.ThreadPoolExecutor@34bcd871[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 61]
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [d97722c2d91d6586f9e4f13b833a493d, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.96, fedcm:accounts: true, goog:processID: 33916, ms:edgeOptions: {debuggerAddress: localhost:57134}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\esakivel\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.44:4444/sess..., se:cdpVersion: 143.0.3650.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d97722c2d91d6586f9e4f13b833a493d
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:15 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:19 PM</td>
+        <td>
+          Remote Browser launched: chrome on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="23"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithExternalDataProvider</p>
+            <p class="text-sm">
+              <span>6:27:20 PM</span> / <span>00:00:12:930</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">testLoginWithExternalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:27:20 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:27:33 PM</span>
+<span class='badge badge-default'>00:00:12:930</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:20 PM</td>
+        <td>
+          Test Started: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:20 PM</td>
+        <td>
+          Description: Data Driven Login Test with External DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:27:20 PM</td>
+        <td>
+          ⚠ Test SKIPPED: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:27:20 PM</td>
+        <td>
+          Skip Reason: Cannot find session with id: a331aded-4042-42dd-ab82-eb720ed96ea4
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a331aded-4042-42dd-ab82-eb720ed96ea4, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5740, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a331aded-4042-42dd-ab82-eb720ed96ea4
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:23 PM</td>
+        <td>
+          Remote Browser launched: firefox on windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:29 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:33 PM</td>
+        <td>
+          Remote Browser launched: edge on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithExternalDataProvider</p>
+            <p class="text-sm">
+              <span>6:27:38 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testLoginWithExternalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:27:38 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:27:38 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:38 PM</td>
+        <td>
+          Test Started: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:38 PM</td>
+        <td>
+          Description: Data Driven Login Test with External DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:38 PM</td>
+        <td>
+          Testing with Username: fdhg
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="25"
+          author=""
+          tag="excel datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginAndUpdateResult</p>
+            <p class="text-sm">
+              <span>6:27:46 PM</span> / <span>00:00:05:476</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testLoginAndUpdateResult</h5>
+<span class='badge badge-success'>12.28.2025 6:27:46 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:27:51 PM</span>
+<span class='badge badge-default'>00:00:05:476</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">excel</span>
+<span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:46 PM</td>
+        <td>
+          Test Started: testLoginAndUpdateResult
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:46 PM</td>
+        <td>
+          Description: Login Test with Excel Result Update
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:27:46 PM</td>
+        <td>
+          ⚠ Test SKIPPED: testLoginAndUpdateResult
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:27:46 PM</td>
+        <td>
+          Skip Reason: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a331aded-4042-42dd-ab82-eb720ed96ea4, quit []]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5740, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:27:47 PM</td>
+        <td>
+          ✗ Test FAILED: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:27:47 PM</td>
+        <td>
+          Failure Reason: Unable to execute request for an existing session: java.io.IOException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@406ab91c rejected from java.util.concurrent.ThreadPoolExecutor@1570c844[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 44]
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [e4cf17e71cc3fb8d9ba649407923bcd5, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.96, fedcm:accounts: true, goog:processID: 36232, ms:edgeOptions: {debuggerAddress: localhost:56223}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\esakivel\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.44:4444/sess..., se:cdpVersion: 143.0.3650.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e4cf17e71cc3fb8d9ba649407923bcd5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>6:27:47 PM</td>
+        <td>
+          Could not capture screenshot: Task java.util.concurrent.FutureTask@6106a7f9[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@1ea9c618[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000001ea4f394f28@3b52e6f]] rejected from java.util.concurrent.ThreadPoolExecutor@1570c844[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 46]
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [e4cf17e71cc3fb8d9ba649407923bcd5, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.96, fedcm:accounts: true, goog:processID: 36232, ms:edgeOptions: {debuggerAddress: localhost:56223}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\esakivel\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.44:4444/sess..., se:cdpVersion: 143.0.3650.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e4cf17e71cc3fb8d9ba649407923bcd5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:47 PM</td>
+        <td>
+          Execution Time: 9.16 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:51 PM</td>
+        <td>
+          Remote Browser launched: edge on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="26"
+          author=""
+          tag="sanity"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginPageDisplayed</p>
+            <p class="text-sm">
+              <span>6:27:57 PM</span> / <span>00:00:01:122</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">testLoginPageDisplayed</h5>
+<span class='badge badge-success'>12.28.2025 6:27:57 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:27:58 PM</span>
+<span class='badge badge-default'>00:00:01:122</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:57 PM</td>
+        <td>
+          Test Started: testLoginPageDisplayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:57 PM</td>
+        <td>
+          Description: Verify login page is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:27:57 PM</td>
+        <td>
+          ⚠ Test SKIPPED: testLoginPageDisplayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:27:57 PM</td>
+        <td>
+          Skip Reason: Task java.util.concurrent.FutureTask@6f5dc173[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@6f936b2c[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000001ea4f394f28@175065bd]] rejected from java.util.concurrent.ThreadPoolExecutor@34bcd871[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 61]
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [d97722c2d91d6586f9e4f13b833a493d, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.96, fedcm:accounts: true, goog:processID: 33916, ms:edgeOptions: {debuggerAddress: localhost:57134}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\esakivel\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.44:4444/sess..., se:cdpVersion: 143.0.3650.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d97722c2d91d6586f9e4f13b833a493d
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:58 PM</td>
+        <td>
+          Remote Browser launched: chrome on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author=""
+          tag="regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testEmptyCredentials</p>
+            <p class="text-sm">
+              <span>6:27:59 PM</span> / <span>00:00:09:915</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testEmptyCredentials</h5>
+<span class='badge badge-success'>12.28.2025 6:27:59 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:28:09 PM</span>
+<span class='badge badge-default'>00:00:09:915</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:59 PM</td>
+        <td>
+          Test Started: testEmptyCredentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:59 PM</td>
+        <td>
+          Description: Verify login with empty credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:27:59 PM</td>
+        <td>
+          Starting Empty Credentials Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:28:05 PM</td>
+        <td>
+          Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:28:09 PM</td>
+        <td>
+          Remote Browser launched: firefox on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="28"
+          author=""
+          tag="datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginWithExternalDataProvider</p>
+            <p class="text-sm">
+              <span>6:28:17 PM</span> / <span>00:00:35:893</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">testLoginWithExternalDataProvider</h5>
+<span class='badge badge-success'>12.28.2025 6:28:17 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:28:53 PM</span>
+<span class='badge badge-default'>00:00:35:893</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:28:17 PM</td>
+        <td>
+          Test Started: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:28:17 PM</td>
+        <td>
+          Description: Data Driven Login Test with External DataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:28:17 PM</td>
+        <td>
+          ⚠ Test SKIPPED: testLoginWithExternalDataProvider
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:28:17 PM</td>
+        <td>
+          Skip Reason: Task java.util.concurrent.FutureTask@5fe9519d[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7738e55f[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000001ea4f394f28@2e26011]] rejected from java.util.concurrent.ThreadPoolExecutor@1570c844[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 46]
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [e4cf17e71cc3fb8d9ba649407923bcd5, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.96, fedcm:accounts: true, goog:processID: 36232, ms:edgeOptions: {debuggerAddress: localhost:56223}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\esakivel\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.44:4444/sess..., se:cdpVersion: 143.0.3650.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e4cf17e71cc3fb8d9ba649407923bcd5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:28:18 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:28:28 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:28:49 PM</td>
+        <td>
+          Remote Browser launched: firefox on windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:28:53 PM</td>
+        <td>
+          Empty credentials handled correctly
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:28:53 PM</td>
+        <td>
+          ✓ Test PASSED: testEmptyCredentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:28:53 PM</td>
+        <td>
+          Execution Time: 53.81 seconds
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="29"
+          author=""
+          tag="regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testEmptyCredentials</p>
+            <p class="text-sm">
+              <span>6:28:56 PM</span> / <span>00:00:06:805</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testEmptyCredentials</h5>
+<span class='badge badge-success'>12.28.2025 6:28:56 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:29:02 PM</span>
+<span class='badge badge-default'>00:00:06:805</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:28:56 PM</td>
+        <td>
+          Test Started: testEmptyCredentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:28:56 PM</td>
+        <td>
+          Description: Verify login with empty credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:28:56 PM</td>
+        <td>
+          Starting Empty Credentials Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:28:58 PM</td>
+        <td>
+          ✗ Test FAILED: testEmptyCredentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:28:58 PM</td>
+        <td>
+          Failure Reason: Tried to run command without establishing a connection
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [f1c19237-b47f-497a-9db7-12937ede6966, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28932, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: f1c19237-b47f-497a-9db7-12937ede6966
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:28:58 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>6:28:58 PM</td>
+        <td>
+          Could not capture screenshot: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [f1c19237-b47f-497a-9db7-12937ede6966, screenshot []]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28932, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:28:59 PM</td>
+        <td>
+          Execution Time: 2.95 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:28:59 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:02 PM</td>
+        <td>
+          Remote Browser launched: chrome on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="30"
+          author=""
+          tag="excel datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginAndUpdateResult</p>
+            <p class="text-sm">
+              <span>6:29:04 PM</span> / <span>00:00:05:915</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">testLoginAndUpdateResult</h5>
+<span class='badge badge-success'>12.28.2025 6:29:04 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:29:10 PM</span>
+<span class='badge badge-default'>00:00:05:915</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">excel</span>
+<span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:04 PM</td>
+        <td>
+          Test Started: testLoginAndUpdateResult
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:04 PM</td>
+        <td>
+          Description: Login Test with Excel Result Update
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:29:04 PM</td>
+        <td>
+          ⚠ Test SKIPPED: testLoginAndUpdateResult
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:29:04 PM</td>
+        <td>
+          Skip Reason: Cannot find session with id: a331aded-4042-42dd-ab82-eb720ed96ea4
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a331aded-4042-42dd-ab82-eb720ed96ea4, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.6.0, moz:accessibilityChecks: false, moz:buildID: 20251201132345, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5740, moz:profile: C:\Users\esakivel\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a331aded-4042-42dd-ab82-eb720ed96ea4
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:06 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:10 PM</td>
+        <td>
+          Remote Browser launched: chrome on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="31"
+          author=""
+          tag="sanity"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginPageDisplayed</p>
+            <p class="text-sm">
+              <span>6:29:11 PM</span> / <span>00:00:09:875</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testLoginPageDisplayed</h5>
+<span class='badge badge-success'>12.28.2025 6:29:11 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:29:21 PM</span>
+<span class='badge badge-default'>00:00:09:875</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:11 PM</td>
+        <td>
+          Test Started: testLoginPageDisplayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:11 PM</td>
+        <td>
+          Description: Verify login page is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:11 PM</td>
+        <td>
+          Verifying Login Page Display
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:19 PM</td>
+        <td>
+          Remote Browser launched: firefox on windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:29:21 PM</td>
+        <td>
+          Login page displayed correctly
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="32"
+          author=""
+          tag="excel datadriven regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginAndUpdateResult</p>
+            <p class="text-sm">
+              <span>6:29:26 PM</span> / <span>00:00:15:183</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">testLoginAndUpdateResult</h5>
+<span class='badge badge-success'>12.28.2025 6:29:26 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:29:41 PM</span>
+<span class='badge badge-default'>00:00:15:183</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">excel</span>
+<span class="badge badge-pill badge-default">datadriven</span>
+<span class="badge badge-pill badge-default">regression</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\esakivel\eclipse-workspace8\Opencartframeworkpractiseproject/Screenshots/LoginPage_20251228_182921.png' src="C:\Users\esakivel\eclipse-workspace8\Opencartframeworkpractiseproject/Screenshots/LoginPage_20251228_182921.png">
+    <div class="title">Login Page</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:26 PM</td>
+        <td>
+          Test Started: testLoginAndUpdateResult
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:26 PM</td>
+        <td>
+          Description: Login Test with Excel Result Update
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:29:26 PM</td>
+        <td>
+          ⚠ Test SKIPPED: testLoginAndUpdateResult
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:29:26 PM</td>
+        <td>
+          Skip Reason: Task java.util.concurrent.FutureTask@5fe9519d[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7738e55f[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000001ea4f394f28@2e26011]] rejected from java.util.concurrent.ThreadPoolExecutor@1570c844[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 46]
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [e4cf17e71cc3fb8d9ba649407923bcd5, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.96, fedcm:accounts: true, goog:processID: 36232, ms:edgeOptions: {debuggerAddress: localhost:56223}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\esakivel\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.44:4444/sess..., se:cdpVersion: 143.0.3650.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e4cf17e71cc3fb8d9ba649407923bcd5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:29:26 PM</td>
+        <td>
+          ✓ Test PASSED: testLoginPageDisplayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:26 PM</td>
+        <td>
+          Execution Time: 14.69 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:29 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:41 PM</td>
+        <td>
+          Remote Browser launched: firefox on windows
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="33"
+          author=""
+          tag="sanity"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginPageDisplayed</p>
+            <p class="text-sm">
+              <span>6:29:46 PM</span> / <span>00:00:06:680</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testLoginPageDisplayed</h5>
+<span class='badge badge-success'>12.28.2025 6:29:46 PM</span>
+<span class='badge badge-danger'>12.28.2025 6:29:52 PM</span>
+<span class='badge badge-default'>00:00:06:680</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\esakivel\eclipse-workspace8\Opencartframeworkpractiseproject/Screenshots/LoginPage_20251228_182949.png' src="C:\Users\esakivel\eclipse-workspace8\Opencartframeworkpractiseproject/Screenshots/LoginPage_20251228_182949.png">
+    <div class="title">Login Page</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:46 PM</td>
+        <td>
+          Test Started: testLoginPageDisplayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:46 PM</td>
+        <td>
+          Description: Verify login page is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:46 PM</td>
+        <td>
+          Verifying Login Page Display
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:29:49 PM</td>
+        <td>
+          Login page displayed correctly
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:29:49 PM</td>
+        <td>
+          ✓ Test PASSED: testLoginPageDisplayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:49 PM</td>
+        <td>
+          Execution Time: 3.81 seconds
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:29:52 PM</td>
+        <td>
+          Browser closed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">6</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>2</span>
+<span class='badge log badge-skip'>1</span>
+<span class='badge log badge-warning'>1</span>
+</span>
+<p class="name">smoke</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>smoke</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+<span status="skip" class='badge log badge-skip'>1 skipped</span>
+<span status="skip" class='badge log badge-warning'>1 others</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:24:01 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>testValidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:24:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>testInvalidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="warning">
+<td><span class="badge log warning-bg">Warning</span></td>
+<td>18:24:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>testValidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:24:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>testValidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:25:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>testInvalidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:25:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>testInvalidLogin</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+<span class='badge log badge-danger'>5</span>
+<span class='badge log badge-skip'>10</span>
+</span>
+<p class="name">datadriven</p>
+<p class="duration text-sm">21 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>datadriven</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+<span status="fail" class='badge log badge-danger'>5 failed</span>
+<span status="skip" class='badge log badge-skip'>10 skipped</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:22:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:22:12 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:22:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:23:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:23:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:23:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:23:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:23:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:24:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:24:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:25:56 PM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:26:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:26:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:26:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:27:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:27:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:27:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:27:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>testLoginAndUpdateResult</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:28:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:29:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>testLoginAndUpdateResult</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:29:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>testLoginAndUpdateResult</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>9</span>
+<span class='badge log badge-danger'>8</span>
+<span class='badge log badge-skip'>12</span>
+<span class='badge log badge-warning'>1</span>
+</span>
+<p class="name">regression</p>
+<p class="duration text-sm">30 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>regression</h4>
+<span status="pass" class='badge log pass-bg'>9 passed</span>
+<span status="fail" class='badge log badge-danger'>8 failed</span>
+<span status="skip" class='badge log badge-skip'>12 skipped</span>
+<span status="skip" class='badge log badge-warning'>1 others</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:22:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:22:12 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:22:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:23:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:23:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:23:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:23:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:23:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:24:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>testLoginWithLocalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:24:01 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>testValidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:24:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>testInvalidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="warning">
+<td><span class="badge log warning-bg">Warning</span></td>
+<td>18:24:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>testValidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:24:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>testValidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:24:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:25:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>testInvalidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:25:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>testInvalidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:25:56 PM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:26:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:26:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:26:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:27:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:27:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>testEmptyCredentials</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:27:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:27:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:27:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>testLoginAndUpdateResult</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:27:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>testEmptyCredentials</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:28:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>testLoginWithExternalDataProvider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:28:56 PM</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>testEmptyCredentials</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:29:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>testLoginAndUpdateResult</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:29:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>testLoginAndUpdateResult</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>2</span>
+<span class='badge log badge-skip'>1</span>
+<span class='badge log badge-warning'>1</span>
+</span>
+<p class="name">login</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>login</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+<span status="skip" class='badge log badge-skip'>1 skipped</span>
+<span status="skip" class='badge log badge-warning'>1 others</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:24:01 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>testValidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:24:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>testInvalidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="warning">
+<td><span class="badge log warning-bg">Warning</span></td>
+<td>18:24:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>testValidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:24:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>testValidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:25:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>testInvalidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:25:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>testInvalidLogin</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+<span class='badge log badge-skip'>2</span>
+</span>
+<p class="name">excel</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>excel</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="skip" class='badge log badge-skip'>2 skipped</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:27:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>testLoginAndUpdateResult</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:29:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>testLoginAndUpdateResult</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:29:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>testLoginAndUpdateResult</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-skip'>1</span>
+</span>
+<p class="name">sanity</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>sanity</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="skip" class='badge log badge-skip'>1 skipped</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:27:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>testLoginPageDisplayed</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:29:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>testLoginPageDisplayed</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:29:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='33' id='33'>testLoginPageDisplayed</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sunday, December 28, 2025, 06:21 PM (IST)</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sunday, December 28, 2025, 06:29 PM (IST)</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>11</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>8</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='33%'>
+<b>11</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='24%'><b>8</b> tests failed,
+<b>13</b> skipped, <b data-tooltip='3%'>1</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='4%'><b>12</b> events passed</small></div>
+<div>
+<small data-tooltip='10%'><b>27</b> events failed,
+<b data-tooltip='%'>210</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"testLoginWithLocalDataProvider":0.038,"testLoginWithLocalDataProvider":7.482,"testLoginWithLocalDataProvider":33.495,"testLoginWithLocalDataProvider":0.001,"testLoginWithLocalDataProvider":14.721,"testLoginWithLocalDataProvider":0,"testLoginWithLocalDataProvider":3.804,"testLoginWithLocalDataProvider":14.445,"testLoginWithLocalDataProvider":0.002,"testValidLogin":14.316,"testInvalidLogin":9.468,"testValidLogin":5.954,"testValidLogin":17.474,"testLoginWithExternalDataProvider":4.637,"testInvalidLogin":17.532,"testInvalidLogin":13.053,"testLoginWithExternalDataProvider":3.339,"testLoginWithExternalDataProvider":12.661,"testLoginWithExternalDataProvider":23.279,"testLoginWithExternalDataProvider":3.736,"testLoginWithExternalDataProvider":4.922,"testEmptyCredentials":5.831,"testLoginWithExternalDataProvider":12.93,"testLoginWithExternalDataProvider":0,"testLoginAndUpdateResult":5.476,"testLoginPageDisplayed":1.122,"testEmptyCredentials":9.915,"testLoginWithExternalDataProvider":35.893,"testEmptyCredentials":6.805,"testLoginAndUpdateResult":5.915,"testLoginPageDisplayed":9.875,"testLoginAndUpdateResult":15.183,"testLoginPageDisplayed":6.68
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>smoke</td>
+<td>2</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+<td>33.333%</td>
+</tr>
+<tr>
+<td>datadriven</td>
+<td>6</td>
+<td>5</td>
+<td>10</td>
+<td>0</td>
+<td>28.571%</td>
+</tr>
+<tr>
+<td>regression</td>
+<td>9</td>
+<td>8</td>
+<td>12</td>
+<td>1</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>login</td>
+<td>2</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+<td>33.333%</td>
+</tr>
+<tr>
+<td>excel</td>
+<td>0</td>
+<td>1</td>
+<td>2</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>sanity</td>
+<td>2</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Application</td>
+<td>OrangeHRM</td>
+</tr>
+<tr>
+<td>Application</td>
+<td>OrangeHRM</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>User Name</td>
+<td>esakivel</td>
+</tr>
+<tr>
+<td>User Name</td>
+<td>esakivel</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>firefox</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>chrome</td>
+</tr>
+<tr>
+<td>Java Version</td>
+<td>22.0.2</td>
+</tr>
+<tr>
+<td>Application</td>
+<td>OrangeHRM</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>User Name</td>
+<td>esakivel</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>edge</td>
+</tr>
+<tr>
+<td>Java Version</td>
+<td>22.0.2</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 11,
+failParent: 8,
+warningParent: 1,
+skipParent: 13,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 12,
+failEvents: 27,
+warningEvents: 11,
+skipEvents: 28,
+infoEvents: 171
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

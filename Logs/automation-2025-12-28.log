@@ -1,0 +1,465 @@
+2025-12-28 13:21:19 [main] INFO  Testbase.BaseClass - config.properties loaded successfully
+2025-12-28 13:21:19 [main] INFO  Testbase.BaseClass - URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 13:21:19 [main] INFO  Testbase.BaseClass - Username: Admin
+2025-12-28 13:21:19 [main] INFO  Testbase.BaseClass - Implicit Wait: 10s
+2025-12-28 13:21:19 [main] INFO  Testbase.BaseClass - Explicit Wait: 30s
+2025-12-28 13:21:19 [main] INFO  Testbase.BaseClass - Headless Mode: false
+2025-12-28 13:21:19 [TestNG-tests-2] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:21:19 [TestNG-tests-1] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:21:19 [TestNG-tests-2] INFO  Testbase.BaseClass - BROWSER SETUP STARTED - FIREFOX
+2025-12-28 13:21:19 [TestNG-tests-1] INFO  Testbase.BaseClass - BROWSER SETUP STARTED - CHROME
+2025-12-28 13:21:19 [TestNG-tests-2] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:21:19 [TestNG-tests-1] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:21:23 [TestNG-tests-1] INFO  Testbase.BaseClass - Chrome Browser Launched Successfully
+2025-12-28 13:21:23 [TestNG-tests-1] INFO  Testbase.BaseClass - Browser Window Maximized
+2025-12-28 13:21:23 [TestNG-tests-1] INFO  Testbase.BaseClass - Waits Configured - Implicit: 10s, Explicit: 30s, PageLoad: 30s
+2025-12-28 13:21:27 [TestNG-tests-1] INFO  Testbase.BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 13:21:27 [TestNG-tests-1] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:21:27 [TestNG-tests-1] INFO  Pageobjects.LoginPage - LoginPage Initialized
+2025-12-28 13:21:27 [TestNG-tests-1] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:21:27 [TestNG-tests-1] INFO  Testbase.BaseClass - TEST CASE 1: VALID LOGIN TEST - STARTED
+2025-12-28 13:21:27 [TestNG-tests-1] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:21:27 [TestNG-tests-1] INFO  Testbase.BaseClass - Username from config: Admin
+2025-12-28 13:21:27 [TestNG-tests-1] INFO  Testbase.BaseClass - Password from config: ********
+2025-12-28 13:21:27 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Performing Login with Username: Admin
+2025-12-28 13:21:27 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Entered Username: Admin
+2025-12-28 13:21:28 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Entered Password: ********
+2025-12-28 13:21:29 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Clicked Login Button
+2025-12-28 13:21:30 [TestNG-tests-2] INFO  Testbase.BaseClass - Firefox Browser Launched Successfully
+2025-12-28 13:21:30 [TestNG-tests-2] INFO  Testbase.BaseClass - Browser Window Maximized
+2025-12-28 13:21:30 [TestNG-tests-2] INFO  Testbase.BaseClass - Waits Configured - Implicit: 10s, Explicit: 30s, PageLoad: 30s
+2025-12-28 13:21:34 [TestNG-tests-2] INFO  Testbase.BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 13:21:34 [TestNG-tests-2] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:21:34 [TestNG-tests-2] INFO  Pageobjects.LoginPage - LoginPage Initialized
+2025-12-28 13:21:34 [TestNG-tests-2] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:21:34 [TestNG-tests-2] INFO  Testbase.BaseClass - TEST CASE 1: VALID LOGIN TEST - STARTED
+2025-12-28 13:21:34 [TestNG-tests-2] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:21:34 [TestNG-tests-2] INFO  Testbase.BaseClass - Username from config: Admin
+2025-12-28 13:21:34 [TestNG-tests-2] INFO  Testbase.BaseClass - Password from config: ********
+2025-12-28 13:21:34 [TestNG-tests-2] INFO  Pageobjects.LoginPage - Performing Login with Username: Admin
+2025-12-28 13:21:35 [TestNG-tests-2] INFO  Pageobjects.LoginPage - Entered Username: Admin
+2025-12-28 13:21:36 [TestNG-tests-2] INFO  Pageobjects.LoginPage - Entered Password: ********
+2025-12-28 13:21:38 [TestNG-tests-2] INFO  Pageobjects.LoginPage - Clicked Login Button
+2025-12-28 13:22:00 [TestNG-tests-1] ERROR Pageobjects.LoginPage - LOGIN FAILED - Dashboard Not Displayed
+2025-12-28 13:22:01 [TestNG-tests-2] ERROR Pageobjects.LoginPage - LOGIN FAILED - Dashboard Not Displayed
+2025-12-28 13:22:01 [TestNG-tests-1] INFO  Testbase.BaseClass - Browser Closed Successfully
+2025-12-28 13:22:01 [TestNG-tests-1] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:22:01 [TestNG-tests-1] INFO  Testbase.BaseClass - TEST EXECUTION COMPLETED
+2025-12-28 13:22:01 [TestNG-tests-1] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:22:01 [TestNG-tests-2] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:22:01 [TestNG-tests-1] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:22:01 [TestNG-tests-1] INFO  Testbase.BaseClass - BROWSER SETUP STARTED - CHROME
+2025-12-28 13:22:01 [TestNG-tests-2] INFO  Testbase.BaseClass - BROWSER SETUP STARTED - FIREFOX
+2025-12-28 13:22:01 [TestNG-tests-1] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:22:01 [TestNG-tests-2] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:22:07 [TestNG-tests-1] INFO  Testbase.BaseClass - Chrome Browser Launched Successfully
+2025-12-28 13:22:07 [TestNG-tests-1] INFO  Testbase.BaseClass - Browser Window Maximized
+2025-12-28 13:22:07 [TestNG-tests-1] INFO  Testbase.BaseClass - Waits Configured - Implicit: 10s, Explicit: 30s, PageLoad: 30s
+2025-12-28 13:22:08 [TestNG-tests-1] INFO  Testbase.BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 13:22:08 [TestNG-tests-1] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:22:08 [TestNG-tests-1] INFO  Pageobjects.LoginPage - LoginPage Initialized
+2025-12-28 13:22:08 [TestNG-tests-1] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:22:08 [TestNG-tests-1] INFO  Testbase.BaseClass - TEST CASE 2: INVALID LOGIN TEST - STARTED
+2025-12-28 13:22:08 [TestNG-tests-1] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:22:08 [TestNG-tests-1] INFO  Testbase.BaseClass - Generated Random Username: User_JOQzlfgr
+2025-12-28 13:22:08 [TestNG-tests-1] INFO  Testbase.BaseClass - Generated Random Password: ypoewOjPES
+2025-12-28 13:22:08 [TestNG-tests-1] INFO  Testbase.BaseClass - Random Username: User_JOQzlfgr
+2025-12-28 13:22:08 [TestNG-tests-1] INFO  Testbase.BaseClass - Random Password: ypoewOjPES
+2025-12-28 13:22:08 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Performing Login with Username: User_JOQzlfgr
+2025-12-28 13:22:13 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Entered Username: User_JOQzlfgr
+2025-12-28 13:22:13 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Entered Password: ********
+2025-12-28 13:22:13 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Clicked Login Button
+2025-12-28 13:22:16 [TestNG-tests-1] WARN  Pageobjects.LoginPage - Error Message: Invalid credentials
+2025-12-28 13:22:16 [TestNG-tests-1] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:22:16 [TestNG-tests-1] INFO  Testbase.BaseClass - TEST CASE 2: INVALID LOGIN TEST - PASSED
+2025-12-28 13:22:16 [TestNG-tests-1] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:22:17 [TestNG-tests-2] INFO  Testbase.BaseClass - Firefox Browser Launched Successfully
+2025-12-28 13:22:17 [TestNG-tests-2] INFO  Testbase.BaseClass - Browser Window Maximized
+2025-12-28 13:22:17 [TestNG-tests-2] INFO  Testbase.BaseClass - Waits Configured - Implicit: 10s, Explicit: 30s, PageLoad: 30s
+2025-12-28 13:22:21 [TestNG-tests-2] INFO  Testbase.BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 13:22:21 [TestNG-tests-2] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:22:21 [TestNG-tests-2] INFO  Pageobjects.LoginPage - LoginPage Initialized
+2025-12-28 13:22:21 [TestNG-tests-2] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:22:21 [TestNG-tests-2] INFO  Testbase.BaseClass - TEST CASE 2: INVALID LOGIN TEST - STARTED
+2025-12-28 13:22:21 [TestNG-tests-2] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:22:21 [TestNG-tests-2] INFO  Testbase.BaseClass - Generated Random Username: User_sEdjYtQe
+2025-12-28 13:22:21 [TestNG-tests-2] INFO  Testbase.BaseClass - Generated Random Password: WTcYZggYNl
+2025-12-28 13:22:21 [TestNG-tests-2] INFO  Testbase.BaseClass - Random Username: User_sEdjYtQe
+2025-12-28 13:22:21 [TestNG-tests-2] INFO  Testbase.BaseClass - Random Password: WTcYZggYNl
+2025-12-28 13:22:21 [TestNG-tests-2] INFO  Pageobjects.LoginPage - Performing Login with Username: User_sEdjYtQe
+2025-12-28 13:22:22 [TestNG-tests-2] INFO  Pageobjects.LoginPage - Entered Username: User_sEdjYtQe
+2025-12-28 13:22:22 [TestNG-tests-2] INFO  Pageobjects.LoginPage - Entered Password: ********
+2025-12-28 13:22:24 [TestNG-tests-1] INFO  Testbase.BaseClass - Browser Closed Successfully
+2025-12-28 13:22:24 [TestNG-tests-1] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:22:24 [TestNG-tests-1] INFO  Testbase.BaseClass - TEST EXECUTION COMPLETED
+2025-12-28 13:22:24 [TestNG-tests-1] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:22:24 [TestNG-tests-1] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:22:24 [TestNG-tests-1] INFO  Testbase.BaseClass - BROWSER SETUP STARTED - CHROME
+2025-12-28 13:22:24 [TestNG-tests-1] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:22:24 [TestNG-tests-2] INFO  Pageobjects.LoginPage - Clicked Login Button
+2025-12-28 13:22:24 [TestNG-tests-2] WARN  Pageobjects.LoginPage - Error Message: Invalid credentials
+2025-12-28 13:22:24 [TestNG-tests-2] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:22:24 [TestNG-tests-2] INFO  Testbase.BaseClass - TEST CASE 2: INVALID LOGIN TEST - PASSED
+2025-12-28 13:22:24 [TestNG-tests-2] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:22:24 [TestNG-tests-2] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:22:24 [TestNG-tests-2] INFO  Testbase.BaseClass - BROWSER SETUP STARTED - FIREFOX
+2025-12-28 13:22:24 [TestNG-tests-2] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:22:29 [TestNG-tests-1] INFO  Testbase.BaseClass - Chrome Browser Launched Successfully
+2025-12-28 13:22:29 [TestNG-tests-1] INFO  Testbase.BaseClass - Browser Window Maximized
+2025-12-28 13:22:29 [TestNG-tests-1] INFO  Testbase.BaseClass - Waits Configured - Implicit: 10s, Explicit: 30s, PageLoad: 30s
+2025-12-28 13:22:33 [TestNG-tests-1] INFO  Testbase.BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 13:22:33 [TestNG-tests-1] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:22:33 [TestNG-tests-1] INFO  Pageobjects.LoginPage - LoginPage Initialized
+2025-12-28 13:22:33 [TestNG-tests-1] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:22:33 [TestNG-tests-1] INFO  Testbase.BaseClass - TEST CASE 3: EMPTY CREDENTIALS TEST - STARTED
+2025-12-28 13:22:33 [TestNG-tests-1] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:22:33 [TestNG-tests-1] INFO  Testbase.BaseClass - Clicking Login without entering credentials...
+2025-12-28 13:22:34 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Clicked Login Button
+2025-12-28 13:22:44 [TestNG-tests-2] INFO  Testbase.BaseClass - Firefox Browser Launched Successfully
+2025-12-28 13:22:44 [TestNG-tests-2] INFO  Testbase.BaseClass - Browser Window Maximized
+2025-12-28 13:22:44 [TestNG-tests-2] INFO  Testbase.BaseClass - Waits Configured - Implicit: 10s, Explicit: 30s, PageLoad: 30s
+2025-12-28 13:22:49 [TestNG-tests-2] INFO  Testbase.BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 13:22:49 [TestNG-tests-2] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:22:49 [TestNG-tests-2] INFO  Pageobjects.LoginPage - LoginPage Initialized
+2025-12-28 13:22:49 [TestNG-tests-2] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:22:49 [TestNG-tests-2] INFO  Testbase.BaseClass - TEST CASE 3: EMPTY CREDENTIALS TEST - STARTED
+2025-12-28 13:22:49 [TestNG-tests-2] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:22:49 [TestNG-tests-2] INFO  Testbase.BaseClass - Clicking Login without entering credentials...
+2025-12-28 13:22:51 [TestNG-tests-2] INFO  Pageobjects.LoginPage - Clicked Login Button
+2025-12-28 13:23:04 [TestNG-tests-1] ERROR Pageobjects.LoginPage - LOGIN FAILED - Dashboard Not Displayed
+2025-12-28 13:23:04 [TestNG-tests-1] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:23:04 [TestNG-tests-1] INFO  Testbase.BaseClass - TEST CASE 3: EMPTY CREDENTIALS TEST - PASSED
+2025-12-28 13:23:04 [TestNG-tests-1] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:23:06 [TestNG-tests-2] ERROR Pageobjects.LoginPage - LOGIN FAILED - Dashboard Not Displayed
+2025-12-28 13:23:06 [TestNG-tests-2] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:23:06 [TestNG-tests-2] INFO  Testbase.BaseClass - TEST CASE 3: EMPTY CREDENTIALS TEST - PASSED
+2025-12-28 13:23:06 [TestNG-tests-2] INFO  Testbase.BaseClass - **************************************************
+2025-12-28 13:23:06 [TestNG-tests-1] INFO  Testbase.BaseClass - Browser Closed Successfully
+2025-12-28 13:23:06 [TestNG-tests-1] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 13:23:06 [TestNG-tests-1] INFO  Testbase.BaseClass - TEST EXECUTION COMPLETED
+2025-12-28 13:23:06 [TestNG-tests-1] INFO  Testbase.BaseClass - ==================================================
+2025-12-28 14:44:16 [main] INFO  Testcases.LoginTestCase - Browser launched: chrome
+2025-12-28 14:44:18 [main] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 14:44:21 [main] INFO  Testcases.LoginTestCase - Browser launched: chrome
+2025-12-28 14:44:22 [main] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 14:44:26 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:44:29 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:44:32 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:44:34 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:44:37 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:44:39 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:44:41 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:44:43 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:44:46 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:44:47 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:44:51 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:44:52 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:44:55 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:44:57 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:45:41 [main] INFO  Testcases.LoginTestCase - Browser launched: chrome
+2025-12-28 14:45:53 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:45:54 [main] INFO  Testcases.LoginTestCase - Testing with Username: 
+2025-12-28 14:46:15 [main] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 14:46:16 [main] INFO  Testcases.LoginTestCase - Browser launched: chrome
+2025-12-28 14:46:20 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:46:20 [main] INFO  Testcases.LoginTestCase - Testing with Username: 
+2025-12-28 14:46:41 [main] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 14:46:43 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:46:46 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:46:46 [main] INFO  Testcases.LoginDataDrivenTest - Testing with Username: Admin, Password: admin123
+2025-12-28 14:47:06 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:47:08 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:47:12 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:47:12 [main] INFO  Testcases.LoginDataDrivenTest - Testing with Username: fdhg, Password: ghkgf
+2025-12-28 14:47:32 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:47:34 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:47:37 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:47:37 [main] INFO  Testcases.LoginDataDrivenTest - Testing with Username: jkjjkhhg, Password: jgllijtli
+2025-12-28 14:47:58 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:48:00 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:48:04 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:48:04 [main] INFO  Testcases.LoginDataDrivenTest - Testing with Username: Admin
+2025-12-28 14:48:25 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:48:28 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:48:46 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:48:46 [main] INFO  Testcases.LoginDataDrivenTest - Testing with Username: fdhg
+2025-12-28 14:49:06 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:49:09 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:49:15 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:49:15 [main] INFO  Testcases.LoginDataDrivenTest - Testing with Username: jkjjkhhg
+2025-12-28 14:49:35 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:49:38 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:49:42 [main] INFO  Testcases.LoginDataDrivenTest - Testing Row 1: Username=
+2025-12-28 14:50:02 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:57:07 [main] INFO  Testcases.LoginTestCase - Browser launched: chrome
+2025-12-28 14:57:10 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:57:11 [main] INFO  Testcases.LoginTestCase - Username from Excel: ''
+2025-12-28 14:57:11 [main] INFO  Testcases.LoginTestCase - Password from Excel: 'admin123'
+2025-12-28 14:57:11 [main] INFO  Testcases.LoginTestCase - Expected Result: 'Pass'
+2025-12-28 14:57:11 [main] WARN  Testcases.LoginTestCase - Using hardcoded credentials as Excel returned empty
+2025-12-28 14:57:35 [main] INFO  Testcases.LoginTestCase - ✗ Login failed for user: Admin
+2025-12-28 14:57:36 [main] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 14:57:37 [main] INFO  Testcases.LoginTestCase - Browser launched: chrome
+2025-12-28 14:57:41 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:57:41 [main] INFO  Testcases.LoginTestCase - Username from Excel: ''
+2025-12-28 14:57:41 [main] INFO  Testcases.LoginTestCase - Password from Excel: 'ghkgf'
+2025-12-28 14:57:41 [main] WARN  Testcases.LoginTestCase - Using hardcoded credentials as Excel returned empty
+2025-12-28 14:57:45 [main] INFO  Testcases.LoginTestCase - ✓ Login failed as expected for user: InvalidUser
+2025-12-28 14:57:46 [main] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 14:57:49 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:58:01 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:58:01 [main] INFO  Testcases.LoginDataDrivenTest - Testing - Username: Admin, Password: admin123, Expected: Pass
+2025-12-28 14:58:08 [main] INFO  Testcases.LoginDataDrivenTest - ✓ Login successful for user: Admin
+2025-12-28 14:58:12 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:58:15 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:58:17 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:58:17 [main] INFO  Testcases.LoginDataDrivenTest - Testing - Username: fdhg, Password: ghkgf, Expected: Fail
+2025-12-28 14:58:22 [main] INFO  Testcases.LoginDataDrivenTest - ✓ Login failed as expected for user: fdhg
+2025-12-28 14:58:23 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:58:25 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:58:33 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:58:33 [main] INFO  Testcases.LoginDataDrivenTest - Testing - Username: jkjjkhhg, Password: jgllijtli, Expected: Fail
+2025-12-28 14:58:39 [main] INFO  Testcases.LoginDataDrivenTest - ✓ Login failed as expected for user: jkjjkhhg
+2025-12-28 14:58:40 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:58:42 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:58:50 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:58:50 [main] INFO  Testcases.LoginDataDrivenTest - Testing - Username: Admin, Expected: Pass
+2025-12-28 14:58:56 [main] INFO  Testcases.LoginDataDrivenTest - ✓ Login successful for user: Admin
+2025-12-28 14:59:00 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:59:02 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:59:10 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:59:10 [main] INFO  Testcases.LoginDataDrivenTest - Testing - Username: fdhg, Expected: Fail
+2025-12-28 14:59:17 [main] INFO  Testcases.LoginDataDrivenTest - ✓ Login failed as expected for user: fdhg
+2025-12-28 14:59:17 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:59:20 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:59:22 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:59:22 [main] INFO  Testcases.LoginDataDrivenTest - Testing - Username: jkjjkhhg, Expected: Fail
+2025-12-28 14:59:28 [main] INFO  Testcases.LoginDataDrivenTest - ✓ Login failed as expected for user: jkjjkhhg
+2025-12-28 14:59:28 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 14:59:30 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 14:59:30 [main] INFO  Testcases.LoginDataDrivenTest - Total rows in Excel: 4
+2025-12-28 14:59:33 [main] INFO  Testcases.LoginDataDrivenTest - Testing Row 1: Username='', Expected='Pass'
+2025-12-28 14:59:33 [main] WARN  Testcases.LoginDataDrivenTest - Empty username at row 1, skipping...
+2025-12-28 14:59:40 [main] INFO  Testcases.LoginDataDrivenTest - Testing Row 2: Username='', Expected='Fail'
+2025-12-28 14:59:40 [main] WARN  Testcases.LoginDataDrivenTest - Empty username at row 2, skipping...
+2025-12-28 14:59:43 [main] INFO  Testcases.LoginDataDrivenTest - Testing Row 3: Username='', Expected='Fail'
+2025-12-28 14:59:43 [main] WARN  Testcases.LoginDataDrivenTest - Empty username at row 3, skipping...
+2025-12-28 14:59:43 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 16:39:02 [main] INFO  Testcases.LoginTestCase - Browser launched: chrome
+2025-12-28 16:39:03 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 16:39:32 [main] ERROR Testcases.LoginTestCase - ✗ Login failed for: Admin
+2025-12-28 16:39:32 [main] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 16:39:35 [main] INFO  Testcases.LoginTestCase - Browser launched: chrome
+2025-12-28 16:39:41 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 16:39:46 [main] INFO  Testcases.LoginTestCase - ✓ Login failed as expected for: InvalidUser
+2025-12-28 16:39:47 [main] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 16:39:52 [main] INFO  Testcases.LoginTestCase - Browser launched: chrome
+2025-12-28 16:39:59 [main] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 16:40:06 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 16:40:12 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 16:40:52 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 16:40:54 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 16:40:55 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 16:41:10 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 16:41:12 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 16:41:20 [main] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 16:41:27 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 16:41:29 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 16:41:39 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 16:41:41 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 16:41:49 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 16:41:51 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 16:42:03 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 16:42:05 [main] INFO  Testcases.LoginDataDrivenTest - Browser launched: chrome
+2025-12-28 16:42:23 [main] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 16:42:28 [main] INFO  Testcases.LoginTestCase - Browser launched: chrome
+2025-12-28 16:42:32 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 16:42:57 [main] ERROR Testcases.LoginTestCase - ✗ Login failed for: Admin
+2025-12-28 16:42:58 [main] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 16:43:00 [main] INFO  Testcases.LoginTestCase - Browser launched: chrome
+2025-12-28 16:43:09 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 16:43:14 [main] INFO  Testcases.LoginTestCase - ✓ Login failed as expected for: InvalidUser
+2025-12-28 16:43:15 [main] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 16:43:17 [main] INFO  Testcases.LoginTestCase - Browser launched: chrome
+2025-12-28 16:44:08 [main] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 17:05:41 [main] INFO  Testcases.LoginTestCase - Browser launched: chrome
+2025-12-28 17:05:47 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 17:06:13 [main] ERROR Testcases.LoginTestCase - ✗ Login failed for: Admin
+2025-12-28 17:06:14 [main] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 17:06:19 [main] INFO  Testcases.LoginTestCase - Browser launched: chrome
+2025-12-28 17:06:26 [main] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 17:06:51 [main] ERROR Testcases.LoginTestCase - ✗ Login failed for: Admin
+2025-12-28 17:06:52 [main] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 18:21:52 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:21:52 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:21:52 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:22:02 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:22:02 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: chrome on windows
+2025-12-28 18:22:07 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:22:07 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: firefox on windows
+2025-12-28 18:22:08 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:22:12 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:22:14 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:22:15 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:22:20 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:22:20 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: edge on windows
+2025-12-28 18:22:21 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:22:36 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:22:41 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 18:22:41 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 18:22:41 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:22:41 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:22:46 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:22:46 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: edge on windows
+2025-12-28 18:22:55 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:22:55 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: firefox on windows
+2025-12-28 18:23:04 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:23:07 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:23:13 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:23:14 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:23:17 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 18:23:17 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:23:17 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 18:23:17 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:23:17 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 18:23:17 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:23:21 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:23:21 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: edge on windows
+2025-12-28 18:23:22 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:23:22 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: chrome on windows
+2025-12-28 18:23:30 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:23:31 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:23:31 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:23:34 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:23:34 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: firefox on windows
+2025-12-28 18:23:35 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:23:43 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:23:48 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:23:51 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:23:51 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 18:23:51 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2025-12-28 18:23:51 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2025-12-28 18:23:58 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:23:58 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Remote Browser launched on Selenium Grid: chrome on windows
+2025-12-28 18:23:58 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:23:58 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Remote Browser launched on Selenium Grid: edge on windows
+2025-12-28 18:24:00 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:24:01 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:24:05 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 18:24:05 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2025-12-28 18:24:05 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2025-12-28 18:24:15 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:24:15 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Remote Browser launched on Selenium Grid: edge on windows
+2025-12-28 18:24:17 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:24:22 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 18:24:22 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:24:27 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:24:27 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: chrome on windows
+2025-12-28 18:24:28 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:24:30 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:24:30 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: firefox on windows
+2025-12-28 18:24:34 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:24:38 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:24:48 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:24:51 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 18:24:51 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2025-12-28 18:24:51 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 18:24:51 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2025-12-28 18:24:55 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:24:55 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Remote Browser launched on Selenium Grid: edge on windows
+2025-12-28 18:24:59 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:25:00 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 18:25:00 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:25:03 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:25:03 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: chrome on windows
+2025-12-28 18:25:07 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:25:08 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:25:13 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - ✓ Login failed as expected for: InvalidUser
+2025-12-28 18:25:13 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 18:25:13 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:25:25 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:25:25 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: firefox on windows
+2025-12-28 18:25:39 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:25:41 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:25:47 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - ✓ Login failed as expected for: InvalidUser
+2025-12-28 18:25:50 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 18:25:50 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:25:52 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:25:52 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: chrome on windows
+2025-12-28 18:25:56 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:25:57 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 18:25:57 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:25:59 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:25:59 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: edge on windows
+2025-12-28 18:26:05 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:26:05 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 18:26:05 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:26:17 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:26:17 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: firefox on windows
+2025-12-28 18:26:24 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:26:44 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 18:26:44 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:26:47 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:26:47 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: edge on windows
+2025-12-28 18:26:51 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:26:51 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 18:26:51 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2025-12-28 18:26:54 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:26:54 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Remote Browser launched on Selenium Grid: chrome on windows
+2025-12-28 18:27:03 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:27:04 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 18:27:04 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:27:08 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:27:08 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: edge on windows
+2025-12-28 18:27:13 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:27:15 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 18:27:15 [TestNG-tests-3] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:27:19 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:27:19 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: chrome on windows
+2025-12-28 18:27:20 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:27:23 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:27:23 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: firefox on windows
+2025-12-28 18:27:29 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 18:27:29 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2025-12-28 18:27:33 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:27:33 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Remote Browser launched on Selenium Grid: edge on windows
+2025-12-28 18:27:38 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:27:46 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:27:47 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:27:47 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2025-12-28 18:27:51 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:27:51 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Remote Browser launched on Selenium Grid: edge on windows
+2025-12-28 18:27:57 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:27:58 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:27:58 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Remote Browser launched on Selenium Grid: chrome on windows
+2025-12-28 18:27:59 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:28:09 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:28:09 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Remote Browser launched on Selenium Grid: firefox on windows
+2025-12-28 18:28:17 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:28:18 [TestNG-tests-3] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 18:28:28 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 18:28:28 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2025-12-28 18:28:49 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:28:49 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Remote Browser launched on Selenium Grid: firefox on windows
+2025-12-28 18:28:56 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:28:58 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 18:28:58 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:28:59 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 18:28:59 [TestNG-tests-2] INFO  Testcases.LoginDataDrivenTest - Config file loaded successfully
+2025-12-28 18:29:02 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:29:02 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Remote Browser launched on Selenium Grid: chrome on windows
+2025-12-28 18:29:04 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:29:06 [TestNG-tests-1] INFO  Testcases.LoginDataDrivenTest - Browser closed
+2025-12-28 18:29:06 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2025-12-28 18:29:10 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:29:10 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Remote Browser launched on Selenium Grid: chrome on windows
+2025-12-28 18:29:11 [TestNG-tests-1] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:29:19 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:29:19 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Remote Browser launched on Selenium Grid: firefox on windows
+2025-12-28 18:29:26 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:29:29 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Browser closed
+2025-12-28 18:29:29 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Config file loaded successfully
+2025-12-28 18:29:41 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Remote WebDriver initialized with Grid URL: http://localhost:4444/wd/hub
+2025-12-28 18:29:41 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Remote Browser launched on Selenium Grid: firefox on windows
+2025-12-28 18:29:46 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 18:29:52 [TestNG-tests-2] INFO  Testcases.LoginTestCase - Browser closed

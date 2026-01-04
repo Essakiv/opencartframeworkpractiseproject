@@ -1,0 +1,41 @@
+2025-12-28 11:38:35 [TestNG-tests-1] INFO  Testbase.BaseClass - Launching browser: chrome
+2025-12-28 11:38:35 [TestNG-tests-3] INFO  Testbase.BaseClass - Launching browser: edge
+2025-12-28 11:38:35 [TestNG-tests-2] INFO  Testbase.BaseClass - Launching browser: firefox
+2025-12-28 11:38:52 [TestNG-tests-1] INFO  Testbase.BaseClass - Navigated to Login Page
+2025-12-28 11:38:52 [TestNG-tests-1] INFO  Pageobjects.LoginPage - LoginPage Initialized
+2025-12-28 11:38:52 [TestNG-tests-1] INFO  Testbase.BaseClass - ========== TEST: Valid Login Test Started ==========
+2025-12-28 11:38:52 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Performing Login with Username: Admin
+2025-12-28 11:38:52 [TestNG-tests-2] INFO  Testbase.BaseClass - Navigated to Login Page
+2025-12-28 11:38:52 [TestNG-tests-2] INFO  Pageobjects.LoginPage - LoginPage Initialized
+2025-12-28 11:38:52 [TestNG-tests-2] INFO  Testbase.BaseClass - ========== TEST: Valid Login Test Started ==========
+2025-12-28 11:38:52 [TestNG-tests-2] INFO  Pageobjects.LoginPage - Performing Login with Username: Admin
+2025-12-28 11:38:54 [TestNG-tests-2] INFO  Pageobjects.LoginPage - Entered Username: Admin
+2025-12-28 11:38:54 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Entered Username: Admin
+2025-12-28 11:38:54 [TestNG-tests-2] INFO  Pageobjects.LoginPage - Entered Password: ********
+2025-12-28 11:38:54 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Entered Password: ********
+2025-12-28 11:38:55 [TestNG-tests-2] INFO  Pageobjects.LoginPage - Clicked on Login Button
+2025-12-28 11:38:55 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Clicked on Login Button
+2025-12-28 11:39:36 [TestNG-tests-1] ERROR Pageobjects.LoginPage - Login Failed - Dashboard not displayed
+2025-12-28 11:39:46 [TestNG-tests-2] ERROR Pageobjects.LoginPage - Login Failed - Dashboard not displayed
+2025-12-28 11:39:48 [TestNG-tests-1] INFO  Testbase.BaseClass - Browser closed
+2025-12-28 11:39:48 [TestNG-tests-1] INFO  Testbase.BaseClass - Launching browser: chrome
+2025-12-28 11:39:54 [TestNG-tests-1] INFO  Testbase.BaseClass - Navigated to Login Page
+2025-12-28 11:39:54 [TestNG-tests-1] INFO  Pageobjects.LoginPage - LoginPage Initialized
+2025-12-28 11:39:54 [TestNG-tests-1] INFO  Testbase.BaseClass - ========== TEST: Invalid Login Test Started ==========
+2025-12-28 11:39:54 [TestNG-tests-1] INFO  Testbase.BaseClass - Testing with Random Username: User_shJDTkLW
+2025-12-28 11:39:54 [TestNG-tests-1] INFO  Testbase.BaseClass - Testing with Random Password: iONMzm7aYL
+2025-12-28 11:39:54 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Performing Login with Username: User_shJDTkLW
+2025-12-28 11:39:55 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Entered Username: User_shJDTkLW
+2025-12-28 11:39:55 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Entered Password: ********
+2025-12-28 11:39:55 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Clicked on Login Button
+2025-12-28 11:39:57 [TestNG-tests-1] WARN  Pageobjects.LoginPage - Error Message Displayed: Invalid credentials
+2025-12-28 11:39:57 [TestNG-tests-1] INFO  Testbase.BaseClass - ========== TEST: Invalid Login Test PASSED ==========
+2025-12-28 11:39:57 [TestNG-tests-1] INFO  Testbase.BaseClass - Browser closed
+2025-12-28 11:39:57 [TestNG-tests-1] INFO  Testbase.BaseClass - Launching browser: chrome
+2025-12-28 11:40:04 [TestNG-tests-1] INFO  Testbase.BaseClass - Navigated to Login Page
+2025-12-28 11:40:04 [TestNG-tests-1] INFO  Pageobjects.LoginPage - LoginPage Initialized
+2025-12-28 11:40:04 [TestNG-tests-1] INFO  Testbase.BaseClass - ========== TEST: Empty Credentials Test Started ==========
+2025-12-28 11:40:05 [TestNG-tests-1] INFO  Pageobjects.LoginPage - Clicked on Login Button
+2025-12-28 11:40:36 [TestNG-tests-1] ERROR Pageobjects.LoginPage - Login Failed - Dashboard not displayed
+2025-12-28 11:40:36 [TestNG-tests-1] INFO  Testbase.BaseClass - ========== TEST: Empty Credentials Test PASSED ==========
+2025-12-28 11:40:36 [TestNG-tests-1] INFO  Testbase.BaseClass - Browser closed
